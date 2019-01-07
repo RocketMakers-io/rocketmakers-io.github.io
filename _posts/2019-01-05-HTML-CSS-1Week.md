@@ -8,16 +8,28 @@ tags:
 
 시나몬에서 진행한 **디자이너를 위한 HTML/CSS 스터디**에서 진행한 내용을 정리했습니다.
 
+## 숙제
+
+- [순수 HTML 버전](http://study.sinamon.io/HTML_CSS/index.html)
+- [CSS 적용된 버전](http://study.sinamon.io/HTML_CSS/index_css.html)
+
 ## 웹 기초
 
 - 구조 : 웹 콘텐츠에 의미를 부여하고 구조를 형성 → HTML
 - 표현 : 시각적인 디자인과 레이아웃 표현 → CSS
 - 행위 : 모든 front-end의 브라우저 상호작용을 담당 → JavaScript
 
-## HTML 기본 태그
+## HTML 참고 사이트
 
 - [w3schools](https://www.w3schools.com/html/)
 - [webberstudy](http://webberstudy.com/)
+- [HTML 태그 정리](http://avalangche.tistory.com/64)
+
+## CSS 참고 사이트
+
+- [CSS: 선택자(Selector) 이해](http://www.nextree.co.kr/p8468/)
+- [반드시 기억해야 하는 CSS 선택자 30개](https://code.tutsplus.com/ko/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+- [CSS 주요 스타일 속성](https://zetawiki.com/wiki/CSS_%EC%A3%BC%EC%9A%94_%EC%8A%A4%ED%83%80%EC%9D%BC_%EC%86%8D%EC%84%B1)
 
 ## CSS:선택자(Selector) 이해
 
@@ -161,8 +173,3 @@ a[href$=".xls"] { background: darkgreen; }
 | z-index | 뷰 우선순위 | 양의 정수값 |
 | opacity | 투명도 | 0.0(완전 투명) ~ 1.0(완전 불투명), initial, inherit |
 
-## 참고
-
-- [CSS: 선택자(Selector) 이해](http://www.nextree.co.kr/p8468/)
-- [반드시 기억해야 하는 CSS 선택자 30개](https://code.tutsplus.com/ko/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
-- [CSS 주요 스타일 속성](https://zetawiki.com/wiki/CSS_%EC%A3%BC%EC%9A%94_%EC%8A%A4%ED%83%80%EC%9D%BC_%EC%86%8D%EC%84%B1)
