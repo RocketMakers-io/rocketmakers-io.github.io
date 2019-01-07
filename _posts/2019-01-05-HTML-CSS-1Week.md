@@ -135,8 +135,8 @@ a[href$=".xls"] { background: darkgreen; }
 
 | 스타일 | 설명 | 비고 |
 |:-----|:----|:-----|
-| <sub>color</sub>  | 글자색  | CSS 색상명 또는 16진 색상값  |
-| <small>font-size</small>  | 글자크기  | 값 지정(단위 : px, em)  |
+| color  | 글자색  | CSS 색상명 또는 16진 색상값  |
+| font-size  | 글자크기  | 값 지정(단위 : px, em)  |
 | font-family  | 글자폰트  | tordkdk  |
 | text-align  | 텍스트 수평 정렬  | center, left, right  |
 | text-decoration  | 글자에 줄긋기  | none, underline, line-through, overline  |
