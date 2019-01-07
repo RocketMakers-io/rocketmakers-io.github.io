@@ -143,17 +143,17 @@ a[href$=".xls"] { background: darkgreen; }
 | text-transform  | 대소문자 변경	  | uppercase, lowercase, capitalize  |
 | background-color  | 배경색  | CSS 색상명 또는 16진 색상값  |
 | margin  | 여백 (바깥쪽) | auto 또는 값 지정(단위: px) |
-| <sub>margin-top<br>margin-bottom<br>margin-left<br>margin-right<br</sub>  | 한쪽 여백  | auto 또는 값 지정(단위: px) |
+| margin-top<br>margin-bottom<br>margin-left<br>margin-right<br>  | 한쪽 여백  | auto 또는 값 지정(단위: px) |
 | padding  | 여유공간 (안쪽)  | 값 지정(단위: px)  |
 | width  | 너비  | 값 지정(단위: px, %, vw)  |
 | height  | 높이  | 값 지정(단위: px, %, vh)  |
 | border  | 외곽선  |   |
-| <sub>border-top<br>border-bottom<br>border-left<br>border-right</sub>  | 한쪽 외곽선  |   |
+| border-top<br>border-bottom<br>border-left<br>border-right  | 한쪽 외곽선  |   |
 | border-radius  | 모서리 둥글게  | 값 지정(단위: px 또는 %)  |
 | border-color  | 외곽선 색상  | CSS 색상명 또는 16진 색상값  |
 | border-width | 외곽선 두께  | 값 지정(단위: px)  |
 | border-style  | 외곽선 스타일	| dashed, dotted, outset, solild|
-| <sub>border-top-left-radius<br>border-top-right-radius<br>border-bottom-left-radius<br>border-bottom-right-radius</sub> | 한쪽 모서리 둥글게 | 값 지정(단위: px 또는 %) |
+| border-top-left-radius<br>border-top-right-radius<br>border-bottom-left-radius<br>border-bottom-right-radius | 한쪽 모서리 둥글게 | 값 지정(단위: px 또는 %) |
 | display  |   | block, inline-block, inline, none  |
 | float | 좌, 우측 정렬 | left, right |
 | clear |  | 	left, right, both |
