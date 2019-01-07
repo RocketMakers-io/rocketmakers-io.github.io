@@ -83,3 +83,4 @@ Rule Set(Rule)은 HTML페이지 안의 특정 요소들을 어떻게 렌더링(R
 ## 참고
 
 - http://www.nextree.co.kr/p8468/
+- https://zetawiki.com/wiki/CSS_%EC%A3%BC%EC%9A%94_%EC%8A%A4%ED%83%80%EC%9D%BC_%EC%86%8D%EC%84%B1
