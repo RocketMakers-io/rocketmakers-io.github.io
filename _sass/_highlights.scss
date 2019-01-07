@@ -1,3 +1,12 @@
+pre.highlight {
+  font-size: $small-font-size;
+  padding: .45em .45em .45em .625em;
+  border: 1px solid $oc-gray-3;
+  border-radius: 3px;
+  margin: 1em 0;
+  overflow: auto;
+  background-color: #272822;
+}
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
@@ -74,15 +83,6 @@ code.highlighter-rouge {
   border-radius: 3px;
 }
 
-pre.highlight {
-  font-size: $small-font-size;
-  padding: .45em .45em .45em .625em;
-  border: 1px solid $oc-gray-3;
-  border-radius: 3px;
-  margin: 1em 0;
-  overflow: auto;
-  background-color: #272822;
-}
 
 
 .highlight  { background: $oc-gray-0; }
