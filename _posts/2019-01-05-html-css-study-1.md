@@ -67,14 +67,18 @@ Rule Set(Rule)은 HTML페이지 안의 특정 요소들을 어떻게 렌더링(R
 | width  | 너비  | 값 지정(단위: px, %, vw)  |
 | height  | 높이  | 값 지정(단위: px, %, vh)  |
 | border  | 외곽선  |   |
-| border-top\nborder-bottom\nborder-left\nborder-right  | 한쪽 외곽선  |   |
+| border-top<br>border-bottom<br>border-left<br>border-right  | 한쪽 외곽선  |   |
 | border-radius  | 모서리 둥글게  | 값 지정(단위: px 또는 %)  |
 | border-color  | 외곽선 색상  | CSS 색상명 또는 16진 색상값  |
-| color  | 글자색  | tordkdk  |
-| color  | 글자색  | tordkdk  |
-| color  | 글자색  | tordkdk  |
-| color  | 글자색  | tordkdk  |
-
+| border-width | 외곽선 두께  | 값 지정(단위: px)  |
+| border-style  | 외곽선 스타일	| dashed, dotted, outset, solild|
+| border-top-left-radius<br>border-top-right-radius<br>border-bottom-left-radius<br>border-bottom-right-radius | 한쪽 모서리 둥글게 | 값 지정(단위: px 또는 %) |
+| display  |   | block, inline-block, inline, none  |
+| float | 좌, 우측 정렬 | left, right |
+| clear |  | 	left, right, both |
+| position |  | absolute, relative, fixed |
+| z-index | 뷰 우선순위 | 양의 정수값 |
+| opacity | 투명도 | 0.0(완전 투명) ~ 1.0(완전 불투명), initial, inherit |
 
 ## 참고
 
