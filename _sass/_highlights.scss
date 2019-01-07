@@ -1,4 +1,7 @@
-pre.highlight {
+code {
+  color: #aaa;
+}
+.highlight pre{
   font-size: $small-font-size;
   padding: .45em .45em .45em .625em;
   border: 1px solid $oc-gray-3;
