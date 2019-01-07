@@ -38,18 +38,95 @@ Rule Set(Rule)은 HTML페이지 안의 특정 요소들을 어떻게 렌더링(R
 
 #### 2.1 전체 선택자(Universal Selector)
 
+```
+/* CSS */
+* { margin: 0; text-decoration: none; }
+```
+
 #### 2.2 태그 선택자(Type Selector)
+
+```
+/* CSS */
+p { background: yellowgreen; color: darkgreen; }
+
+<!-- HTML -->  
+<p>태그 선택자(Type Selector)</p>  
+<div>태그 선택자(Type Selector)</div> 
+```
 
 #### 2.3 클래스 선택자(Class Selector)
 
+```
+/* CSS */
+.class1 { background: yellowgreen; color: darkgreen; }
+div.class2 { background: darkgreen; color: yellowgreen; }
+
+<!-- HTML -->  
+<p class="class1">클래스 선택자(Class Selector)</p>  
+<p class="class2">클래스 선택자(Class Selector)</p>  
+<div class="class2">클래스 선택자(Class Selector)</div>  
+```
 #### 2.4 ID 선택자(ID Selector)
 
-#### 2.5 가상 클래스 선택자(Pseudo-Classes)
+```
+/* CSS */
+#id1 { background: yellowgreen; color: darkgreen; }
+div#id2 { background: darkgreen; color: yellowgreen; }
 
-#### 2.6 복합 선택자(Combinator)
+<!-- HTML -->  
+<p id="id1">ID 선택자(ID Selector)</p>  
+<p id="id2">ID 선택자(ID Selector)</p>  
+<div id="id2">ID 선택자(ID Selector)</div> 
+```
 
+#### 2.5 복합 선택자(Combinator) 
+
+```
+/* CSS */
+/* 하위 선택자 */
+section ul { border: 1px dotted black; }
+
+/* 자식 선택자 */
+section>ul { border: 1px dotted black; }  
+
+/* 인접 형제 선택자 */
+h1+ul { background: yellowgreen; color: darkgreen; }
+
+/* 일반 형제 선택자 */
+h1~ul { background: darkgreen; color: yellowgreen; }  
+```
+
+#### 2.6 가상 클래스 선택자(Pseudo-Classes)
+
+```
+/* CSS */
+/* 동적 선택자 */
+a::hover { color:black; }
+a::focus { color:black; }
+a::active { color:black; }
+
+/* 링크 선택자 */
+a::link { color:black; }
+a::visited { color:black; }
+```
 #### 2.7 속성 선택자(Attribute Selectors)
 
+```
+/* CSS */
+/* E[attr]형식 */
+a[href] { background: yellowgreen; color: black; }
+
+/* E[attr="val"]형식 */
+input[type="text"] { width: 150px; border: 1px solid #000; }
+
+/* E[attr$="val"]형식 */
+a[href$=".xls"] { background: darkgreen; }
+
+<!-- HTML -->  
+<a href="one.html">E[attr]형식</a>  
+<input type="text" name="name">  
+<a href="one.xls">E[attr$="val"]형식</a>  
+```
 ### 3. CSS 주요 스타일 속성
 
 | 스타일 | 설명 | 비고 |
