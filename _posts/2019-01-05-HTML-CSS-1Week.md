@@ -163,5 +163,6 @@ a[href$=".xls"] { background: darkgreen; }
 
 ## 참고
 
-- http://www.nextree.co.kr/p8468/
-- https://zetawiki.com/wiki/CSS_%EC%A3%BC%EC%9A%94_%EC%8A%A4%ED%83%80%EC%9D%BC_%EC%86%8D%EC%84%B1
+- [CSS: 선택자(Selector) 이해](http://www.nextree.co.kr/p8468/)
+- [반드시 기억해야 하는 CSS 선택자 30개](https://code.tutsplus.com/ko/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+- [CSS 주요 스타일 속성](https://zetawiki.com/wiki/CSS_%EC%A3%BC%EC%9A%94_%EC%8A%A4%ED%83%80%EC%9D%BC_%EC%86%8D%EC%84%B1)
