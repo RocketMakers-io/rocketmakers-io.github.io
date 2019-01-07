@@ -26,4 +26,8 @@ tags:
 
 Rule Set(Rule)은 HTML페이지 안의 특정 요소들을 어떻게 렌더링(Rendering) 할 것인지 브라우저에게 알려주는 CSS 문장입니다. 스타일 규칙이라고도 불리는 이 문장은 스타일에 관한 규칙들을 집합처럼 나타냅니다.
 
-![[그림 1] Rule Set]()
+![[그림 1] Rule Set](https://github.com/SinamonDev/SinamonDev.github.io/blob/master/_posts/Images/19-01.%20HTML_CSS/rule_set.png?raw=true)
+
+1.2 선택자(Selector)
+
+위쪽 [그림 1]을 다시 보시면, Rule Set 제일 앞 부분의 선택자 요소를 볼 수 있는데요. 왼쪽 중괄호 "{"가 나오기 전의 부분 모두가 선택자입니다. 선택자는 Rule Set의 영향을 받는 HTML페이지 안의 특정 element들을 선택해서 선언 블록(Declaration Block)의 내용을 적용시켜 줍니다.
