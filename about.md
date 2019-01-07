@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+IT 오프라인 모임 플랫폼을 준비중인 시나몬 입니다!
 
-### More Information
+### 문의하기
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[contact@sinamon.io](mailto:contact@sinamon.io)
