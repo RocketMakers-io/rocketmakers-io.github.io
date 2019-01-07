@@ -61,6 +61,7 @@ Rule Set(Rule)은 HTML페이지 안의 특정 요소들을 어떻게 렌더링(R
 /* CSS */
 p { background: yellowgreen; color: darkgreen; }
 ```
+
 ```html
 <!-- HTML -->  
 <p>태그 선택자(Type Selector)</p>  
@@ -69,11 +70,12 @@ p { background: yellowgreen; color: darkgreen; }
 
 #### 2.3 클래스 선택자(Class Selector)
 
-```
+```css
 /* CSS */
 .class1 { background: yellowgreen; color: darkgreen; }
 div.class2 { background: darkgreen; color: yellowgreen; }
 ```
+
 ```html
 <!-- HTML -->  
 <p class="class1">클래스 선택자(Class Selector)</p>  
@@ -82,11 +84,12 @@ div.class2 { background: darkgreen; color: yellowgreen; }
 ```
 #### 2.4 ID 선택자(ID Selector)
 
-```
+```css
 /* CSS */
 #id1 { background: yellowgreen; color: darkgreen; }
 div#id2 { background: darkgreen; color: yellowgreen; }
 ```
+
 ```html
 <!-- HTML -->  
 <p id="id1">ID 선택자(ID Selector)</p>  
@@ -126,7 +129,7 @@ a::visited { color:black; }
 ```
 #### 2.7 속성 선택자(Attribute Selectors)
 
-```
+```css
 /* CSS */
 /* E[attr]형식 */
 a[href] { background: yellowgreen; color: black; }
@@ -137,6 +140,7 @@ input[type="text"] { width: 150px; border: 1px solid #000; }
 /* E[attr$="val"]형식 */
 a[href$=".xls"] { background: darkgreen; }
 ```
+
 ```html
 <!-- HTML -->  
 <a href="one.html">E[attr]형식</a>  
