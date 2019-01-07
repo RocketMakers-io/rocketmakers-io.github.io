@@ -36,8 +36,8 @@ paginate: 5
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email:
-  facebook:
+  email: contact@sinamon.io
+  facebook: https://www.facebook.com/groups/sinamon
   flickr:
   github:
   googleplus: # anything in your profile username that comes after plus.google.com/
