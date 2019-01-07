@@ -3,11 +3,12 @@ code {
   color: #aaa;
 }
 .highlight pre{
-  padding: .45em .45em .45em .625em;
-  border-radius: 3px;
-  margin: 1em 0;
-  overflow: auto;
-  background-color: #272822;
+	padding: .45em .45em .45em .625em;
+	border-radius: 3px;
+	margin: 1em 0;
+	overflow: auto;
+	background-color: #272822;
+	font-size: 15px;
 }
 .highlight .hll { background-color: #272822; }
 .highlight .c { color: #75715e } /* Comment */
