@@ -1,3 +1,12 @@
+---
+layout: post
+title: Python/Django 입문 스터디 - 1회차
+tags:
+  - Python
+  - Django
+  - Backend
+---
+
 안녕하세요! 오늘은 저희 스터디의 첫번째 모임이었습니다! :)
 
 오늘은 모두 자기 소개를 진행했고 팀을 꾸리고 간단하게 Django에 대해서 알아보았습니다!
