@@ -231,7 +231,7 @@ Django가 어떻게 동작하는지 일련의 과정을 살펴봅시다.
 - [Visual Code 다운로드](https://code.visualstudio.com/download)
 	- Microsoft에서 개발한 강력한 Editor
 	- Opensource
-	
+
 - [PyCharm 다운로드](https://www.jetbrains.com/pycharm/download/)
 	- Intellij에서 개발한 Python에 특화된 Editor
 	- 현재 Python 개발자들이 가장 많이 사용
@@ -250,7 +250,7 @@ Django가 어떻게 동작하는지 일련의 과정을 살펴봅시다.
 
 > 아래의 명령어는 `Unix/Linux 명령어` 이므로 `Window`는 다른 명령어를 이용해야합니다.
 
-> `Window` 명령어로 실행하는 방법은 [Django Girls - 첫번째 Django Project](https://tutorial.djangogirls.org/ko/django_start_project/)에서 확인하실수 있습니다.
+> `Window` 명령어로 실행하는 방법은 [Django Girls - 설치하기](https://tutorial.djangogirls.org/ko/installation/)에서 확인하실수 있습니다.
 
 <br/>
 
