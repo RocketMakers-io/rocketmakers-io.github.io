@@ -13,7 +13,7 @@ tags:
 
 오늘 진행한 내용을 간단하게 정리해보겠습니다!!
 
-<br/><hr/><br/>
+<br/><br/>
 
 ## 자기소개
 
@@ -55,11 +55,11 @@ tags:
 - 정석영
 - 이혜지
 
-<br/><hr/><br/>
+<br/><br/>
 
-## 참고 사이트
+## 커리큘럼
 
-- [Django Tutorial Youtube Playlist](https://www.youtube.com/watch?v=uu98pqiUJU8&list=PLEsfXFp6DpzTD1BD1aWNxS2Ep06vIkaeW)
++) 참고 사이트 : [Django Tutorial Youtube](https://www.youtube.com/watch?v=uu98pqiUJU8&list=PLEsfXFp6DpzTD1BD1aWNxS2Ep06vIkaeW)
 
 <br/>
 
@@ -113,7 +113,7 @@ tags:
 - 배포, 팀별 발표
 - 뒤풀이
 
-<br/><hr/><br/>
+<br/><br/>
 
 ## 1일차 스터디 내용 정리
 
@@ -126,7 +126,7 @@ Djang란 보안이 우수하고 유지보수가 편리한 웹사이트를 **신�
 > +) 프레임워크란? <br/>
 소프트웨어의 구체적인 부분에 해당하는 설계와 구현을 재사용이 가능하게끔 일련의 협업화된 형태로 클래스들을 제공하는 것
 
-<br/>
+<br/><br/>
 
 ### Django의 장점
 
@@ -148,7 +148,7 @@ Shared-Nothing이란 각각의 아키텍처가 독립적이어서 필요하다�
 
 Django는 유지보수가 쉽고 재사용하기 좋게하는 디자인 원칙과 패턴들을 이용하여 작성되었습니다. **Don't Repeat Yourself (DRY)** 원칙을 적용해서 불필요한 중복이 없게끔 개발하여, 코드의 양을 줄였습니다.
 
-<br/>
+<br/><br/>
 
 ### Django를 사용하는 웹사이트들!
 
@@ -175,7 +175,7 @@ Python 또한 다양한 분야에서 사용되며, 점차 그 중요성이 커�
 - https://developer.mozilla.org/ko/docs/Learn/Server-side/Django/Introduction
 - https://www.askcompany.kr/ (유료)
 
-<br/>
+<br/><br/>
 
 ### Django의 특징
 
@@ -205,7 +205,7 @@ Django에는 이런 패턴이 있다는 것만 알아두면 후에 Django를 실
 
 이와 관련된 내용은 Model을 공부하면서 더욱 쉽게 알 수 있습니다. :)
 
-<br/>
+<br/><br/>
 
 ### Django 코드 흐름
 
@@ -223,7 +223,7 @@ Model에서 Database에 있는 데이터를 조회/수정/삭제/입력 등 데�
 
 그리고 해당 흐름을 반대로 진행하며 User에게 Response를 전달하게 됩니다.
 
-<br/>
+<br/><br/>
 
 ### 개발 환경 설치
 
@@ -233,24 +233,24 @@ Model에서 Database에 있는 데이터를 조회/수정/삭제/입력 등 데�
 
 추가적인 Django의 Version은 [Django Version 확인하기](https://www.djangoproject.com/download/)을 확인하시면 됩니다! :)
 
-<br/>
+<br/><br/>
 
 ### 개발툴
 
 - [Visual Code 다운로드](https://code.visualstudio.com/download)
-- Microsoft에서 개발한 강력한 Editor
-- Opensource
+	- Microsoft에서 개발한 강력한 Editor
+	- Opensource
 - [PyCharm 다운로드](https://www.jetbrains.com/pycharm/download/)
-- Intellij에서 개발한 Python에 특화된 Editor
-- 현재 Python 개발자들이 가장 많이 사용
-- 학생은 무료 & 일반인은 유료
+	- Intellij에서 개발한 Python에 특화된 Editor
+	- 현재 Python 개발자들이 가장 많이 사용
+	- 학생은 무료 & 일반인은 유료
 - [Sublime 다운로드](https://www.sublimetext.com/3)
-- 다양한 기능을 제공하며 가벼운 Editor
-- 저장시 Donate를 위한 알림창이 간헐적으로 열림
+	- 다양한 기능을 제공하며 가벼운 Editor
+	- 저장시 Donate를 위한 알림창이 간헐적으로 열림
 - [Atom 다운도르](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
-- Sublime과 같이 많이 사용하는 가벼운 Editor
+	- Sublime과 같이 많이 사용하는 가벼운 Editor
 
-<br/>
+<br/><br/>
 
 ### Django 시작하기
 
@@ -285,7 +285,7 @@ CMD를 키고 아래의 명령어를 한 줄씩 따라해봅시다! :)
 #### +) 가상 환경이란?
 여러개의 파이썬 프로젝트가 하나의 컴퓨터에서 충돌을 일으키지 않고 존재할 수 있도록 도와줍니다.
 
-<br/>
+<br/><br/>
 
 ### 각 파일 살펴보기
 
@@ -303,13 +303,13 @@ CMD를 키고 아래의 명령어를 한 줄씩 따라해봅시다! :)
 
 웹서버와 파이썬을 사용한 웹 어플리케이션 개발환경 간의 인터페이스에 대한 규칙입니다. 좀더 자세한 내용은 [WSGI란 무엇인가?](https://juliahwang.kr/network/2017/09/17/WSGI%EB%9E%80%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.html)을 참고하시길 바랍니다!
 
-<br/>
+<br/><br/>
 
 ### Git
 
 Git은 너무 복잡하고 설명하려면 한 페이지가 더 필요하기 때문에 [깃, 깃허브 강의 - 구조 및 간단한 버전 관리 예제](https://www.youtube.com/watch?v=ImatGhE_9Ho)로 대체하겠습니다.
 
-<br/><hr/><br/>
+<br/><br/>
 
 오늘은 여기까지!! 간단하게 장고에 대해서 알아보았습니다.
 
