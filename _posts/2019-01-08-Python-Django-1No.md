@@ -71,29 +71,31 @@ tags:
 #### 5일차
 - Django의 Model과 Form에 대해서 알아봅니다.
 - Model (Youtube 9~11)
-- Relation Field (OneToOne, ForeignKey, ManyToMany)
-- Reverse Match
+	- Relation Field (OneToOne, ForeignKey, ManyToMany)
+	- Reverse Match
 - ORM란
 - Form (Youtube 23~28)
-- Model Form
-- Validation
-- Widget
+	- Model Form
+	- Validation
+	- Widget
+
 
 #### 6일차
 - Django의 Template에 대해서 알아봅니다.
 - Template (Youtube 14~22)
-- Bootstrap
-- CSS
-- HTML
-- Form
-- CSRF (Cross-Site Request Forgery)
+	- Bootstrap
+	- CSS
+	- HTML
+	- Form
+	- CSRF (Cross-Site Request Forgery)
+
 
 #### 7일차
 - Django의 View에 대해서 알아봅니다.
 - View (Youtube 12~13 29~47)
-- Render
-- Redirect
-- Url Reverse
+	- Render
+	- Redirect
+	- Url Reverse
 
 #### 8일차
 - OAuth2에 대해서 알아보고 Social Login을 실습해봅니다.
