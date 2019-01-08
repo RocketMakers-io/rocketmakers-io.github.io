@@ -73,7 +73,8 @@ Django는 유지보수가 쉽고 재사용하기 좋게하는 디자인 원칙�
 
 ### Django를 사용하는 웹사이트들!
 
-Django는 ``Youtube``, ``DropBox``, ``Google``, ``Instagram``, ``Pinterest``에서 사용되고 있습니다. 즉, Django를 사용하여 대량의 트래픽 처리가 가능하며, 이에 걸맞는 성능을 낼 수 있다는 것을 증명해보이고 있습니다.
+Django는 `Youtube`, `DropBox`, `Google`, `Instagram`, `Pinterest`에서 사용되고 있습니다. 즉, Django를 사용하여 대량의 트래픽 처리가 가능하며, 이에 걸맞는 성능을 낼 수 있다는 것을 증명해보이고 있습니다.
+
 
 #### +) [현재 인기 있는 Framework 순위](http://hotframeworks.com/)
 
@@ -150,7 +151,7 @@ Model에서 Database에 있는 데이터를 조회/수정/삭제/입력 등 데�
 
 [Django Girls 설치하기](https://tutorial.djangogirls.org/ko/installation/)를 참고하여 각 OS에 맞게 환경을 설치하면 됩니다.
 
-버전은 최신 버전으로 진행하며 pip이 최신버전이라면  ``$ pip install django~=1.11.0``으로 뒤에 django Version을 설정하는 것이 아니라. ``$ pip install django`` 만으로도 pip이 알아서 최신버전의 Django를 설치줍니다.
+버전은 최신 버전으로 진행하며 pip이 최신버전이라면  `$ pip install django~=1.11.0`으로 뒤에 django Version을 설정하는 것이 아니라. `$ pip install django` 만으로도 pip이 알아서 최신버전의 Django를 설치줍니다.
 
 추가적인 Django의 Version은 [Django Version 확인하기](https://www.djangoproject.com/download/) 이곳을 확인하시면 됩니다! :)
 
@@ -158,31 +159,31 @@ Model에서 Database에 있는 데이터를 조회/수정/삭제/입력 등 데�
 
 ### 개발툴
 
-보통 저는 ``Visual Code``를 사용하지만 많은 Django 개발자들은 Python에 특화된 강력한 툴인 ``PyCharm``을 사용합니다. ``Sublime``을 사용하기도 하지만 추천하지는 않습니다.
+보통 저는 `Visual Code`를 사용하지만 많은 Django 개발자들은 Python에 특화된 강력한 툴인 `PyCharm`을 사용합니다. `Sublime`을 사용하기도 하지만 추천하지는 않습니다.
 
 <br/>
 
 ### Django 시작하기
 
-``$ mkdir djangoprj`` : mkdir이란 ``make directory``즉 폴더를 생성한다는 뜻입니다. 이 command를 이용하여 djangoprj이라는 폴더를 생성합니다.
+`$ mkdir djangoprj` : mkdir이란 `make directory`즉 폴더를 생성한다는 뜻입니다. 이 command를 이용하여 djangoprj이라는 폴더를 생성합니다.
 
-``$ cd djangoprj`` : cd란 ``change directory`` 즉 해당 폴더로 이동한다는 뜻입니다. 이 command를 이용하여 djangoprj이라는 폴더로 이동합니다.
+`$ cd djangoprj` : cd란 `change directory` 즉 해당 폴더로 이동한다는 뜻입니다. 이 command를 이용하여 djangoprj이라는 폴더로 이동합니다.
 
-``$ python3 -m venv 가상환경이름`` : 해당 명령어를 사용하여 가상 환경을 생성합니다.
+`$ python3 -m venv 가상환경이름` : 해당 명령어를 사용하여 가상 환경을 생성합니다.
 
-``$ source 가상환경이름/bin/activate`` : 해당 가상 환경을 실행합니다.
+`$ source 가상환경이름/bin/activate` : 해당 가상 환경을 실행합니다.
 
-``$ pip3 install django`` : django를 설치합니다.
+`$ pip3 install django` : django를 설치합니다.
 
-``$ django-admin startproject 프로젝트이름 .`` : 프로젝트를 현재 경로에 생성합니다. (뒤에 .을 빼면 현재 경로로 생성되지 않습니다.)
+`$ django-admin startproject 프로젝트이름 .` : 프로젝트를 현재 경로에 생성합니다. (뒤에 .을 빼면 현재 경로로 생성되지 않습니다.)
 
-̀`$ python3 manage.py makemigrations`` : 마이그레이션 파일 (초안) 생성하는 명령어입니다. django에서는 기본적으로 정의되어있는 model이 있기 때문에 해당 model을 적용해주어야합니다.
+̀`$ python3 manage.py makemigrations` : 마이그레이션 파일 (초안) 생성하는 명령어입니다. django에서는 기본적으로 정의되어있는 model이 있기 때문에 해당 model을 적용해주어야합니다.
 
-``$ python3 manage.py migrate`` : 해당 마이그레이션 파일을 DB에 반영합니다.
+`$ python3 manage.py migrate` : 해당 마이그레이션 파일을 DB에 반영합니다.
 
-``$ python3 manage.py runserver`` : 해당 프로젝트를 실행합니다. 기본 ip는 127.0.0.1이고 port는 8000입니다.
+`$ python3 manage.py runserver` : 해당 프로젝트를 실행합니다. 기본 ip는 127.0.0.1이고 port는 8000입니다.
 
-웹사이트에 들어가서 ``127.0.0.1:8000`` 을 실행하면 실행한 django 프로젝트가 보이게 됩니다.
+웹사이트에 들어가서 `127.0.0.1:8000` 을 실행하면 실행한 django 프로젝트가 보이게 됩니다.
 
 #### +) 가상 환경이란?
 여러개의 파이썬 프로젝트가 하나의 컴퓨터에서 충돌을 일으키지 않고 존재할 수 있도록 도와줍니다.
