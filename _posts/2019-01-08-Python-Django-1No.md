@@ -17,11 +17,11 @@ tags:
 
 ## 각자 아이디어 정리
 
-- 박운철 : 요가를 하는 데 예약 시스템이 너무 불편하여 예약 시스템을 개발해보고 싶습니다. (+6)
-- 이재연 : 실시간 화상 채팅 기능 웹사이트를 개발해보고 싶습니다. (+3)
-- 박정환 : 금융 계좌 관련 서비스로 자신의 계좌를 조회하는 서비스를 개발해 보고 싶습니다. (+2)
-- 최주혁 : Ebook이 아니더라도, 책의 기록을 남기는 서비스를 개발해보고 싶습니다.  (+3)
-- 정재호 : 협업할 수 있는 깃허브 느낌까지는 아니고 그냥 파일이나 PPT 발표 자료를 공유할 수 있는 서비스를 개발해 보고 싶습니다. (실시간 채팅도 가능) (+4)
+- 박운철 : 요가를 하는 데 예약 시스템이 너무 불편하여 예약 시스템을 개발해보고 싶습니다.
+- 이재연 : 실시간 화상 채팅 기능 웹사이트를 개발해보고 싶습니다.
+- 박정환 : 금융 계좌 관련 서비스로 자신의 계좌를 조회하는 서비스를 개발해 보고 싶습니다.
+- 최주혁 : Ebook이 아니더라도, 책의 기록을 남기는 서비스를 개발해보고 싶습니다. 
+- 정재호 : 협업할 수 있는 깃허브 느낌까지는 아니고 그냥 파일이나 PPT 발표 자료를 공유할 수 있는 서비스를 개발해 보고 싶습니다. (실시간 채팅도 가능)
 
 <br/>
 
@@ -158,10 +158,10 @@ Python 또한 다양한 분야에서 사용되며, 점차 그 중요성이 커�
 
 #### +) Python + Django 공부
 
-- https://dojang.io/course/view.php?id=7
-- https://djangogirls.org/
-- https://developer.mozilla.org/ko/docs/Learn/Server-side/Django/Introduction
-- https://www.askcompany.kr/ (유료)
+- [코딩 도장](https://dojang.io/course/view.php?id=7)
+- [Django Girls](https://djangogirls.org/)
+- [MDN Web Docs](https://developer.mozilla.org/ko/docs/Learn/Server-side/Django/Introduction)
+- [Ask Company](https://www.askcompany.kr/) (유료지만 그만한 가치가 있습니다!!!)
 
 <br/><br/>
 
@@ -172,7 +172,8 @@ Python 또한 다양한 분야에서 사용되며, 점차 그 중요성이 커�
 패턴을 사용하는 이유는 코드의 복잡성을 줄이고, 재사용성을 높이기 위해서 입니다.
 **MVC패턴** 이라는 패턴이 그나마 제일 많이 들어본 패턴 중 하나였던 것 같습니다.
 
-Model, View, Controller로 구성된 패턴입니다.
+MVC 패턴이란 Model, View, Controller로 구성된 패턴입니다.
+
 - Model : Database
 - View : 사용자가 보게 될 화면의 모습
 - Controller : 어플리케이션의 제어 흐름 및 처리 로직을 정의
@@ -185,9 +186,11 @@ Model, View, Controller로 구성된 패턴입니다.
 
 Django에는 이런 패턴이 있다는 것만 알아두면 후에 Django를 실습하면서 이 패턴에 대해서 느낄 수있을 것입니다! :)
 
+<br/>
+
 #### ORM(Object Relational Mapping)?
 
-객체 간의 관계가 정의되어있어, SQL문을 쓰지 않고, 데이터 CRUD(Create/Retrieve/Update/Delete)를 수행할 수 있는 것입니다.
+**객체 간의 관계가 정의** 되어있어, **SQL문을 쓰지 않고, 데이터 CRUD(Create/Retrieve/Update/Delete)를 수행할 수 있는 것** 입니다.
 
 기존에는 Database에 데이터가 존재하고, 해당 데이터의 CRUD를 실행하려면 SQL문을 실행해야했습니다. 하지만 Django를 사용하면, ORM을 이용하여 객체로 데이터 테이블을 정의하고 해당 테이블에서 데이터 관련 처리를 진행할 때도, 객체로 접근하면 되기 때문에, 더욱 편리하게 사용할 수 있습니다.
 
@@ -201,13 +204,13 @@ Django가 어떻게 동작하는지 일련의 과정을 살펴봅시다.
 
 ![[그림 1] Django 코드 흐름](https://github.com/SinamonDev/SinamonDev.github.io/blob/master/_posts/Images/19-01/django-working-flow.png?raw=true){: width="400px"}
 
-처음에 User가 우리가 개발한 웹사이트에 들어갑니다. 그리고 login과 같은 기능을 사용하며 우리에게 요청을 하게 됩니다. (Request)
+처음에 **User** 가 우리가 개발한 웹사이트에 들어갑니다. 그리고 login과 같은 기능을 사용하며 우리에게 **요청** 을 하게 됩니다. (Request)
 
-해당 요청을 Url이 받아서 어떤 View를 실행시켜야하는지 판단합니다.
+해당 요청을 **Url** 이 받아서 어떤 View를 실행시켜야하는지 판단합니다.
 
-View에서 해당 요청에 관련된 응답을 만드는 중 데이터를 가져오는 등 Model에 접근이 필요하다면 Model부분으로 가게됩니다. html페에지를 로딩해야한다면, Template쪽으로 가게됩니다.
+**View** 에서 해당 요청에 관련된 응답을 만드는 중 데이터를 가져오는 등 Model에 접근이 필요하다면 Model부분으로 가게됩니다. html페에지를 로딩해야한다면, **Template** 쪽으로 가게됩니다.
 
-Model에서 Database에 있는 데이터를 조회/수정/삭제/입력 등 데이터 관련된 처리를 하게 됩니다.
+**Model** 에서 Database에 있는 데이터를 조회/수정/삭제/입력 등 데이터 관련된 처리를 하게 됩니다.
 
 그리고 해당 흐름을 반대로 진행하며 User에게 Response를 전달하게 됩니다.
 
@@ -228,14 +231,17 @@ Model에서 Database에 있는 데이터를 조회/수정/삭제/입력 등 데�
 - [Visual Code 다운로드](https://code.visualstudio.com/download)
 	- Microsoft에서 개발한 강력한 Editor
 	- Opensource
+	
 - [PyCharm 다운로드](https://www.jetbrains.com/pycharm/download/)
 	- Intellij에서 개발한 Python에 특화된 Editor
 	- 현재 Python 개발자들이 가장 많이 사용
 	- 학생은 무료 & 일반인은 유료
+
 - [Sublime 다운로드](https://www.sublimetext.com/3)
 	- 다양한 기능을 제공하며 가벼운 Editor
 	- 저장시 Donate를 위한 알림창이 간헐적으로 열림
-- [Atom 다운도르](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
+
+- [Atom 다운로드](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
 	- Sublime과 같이 많이 사용하는 가벼운 Editor
 
 <br/><br/>
@@ -245,6 +251,8 @@ Model에서 Database에 있는 데이터를 조회/수정/삭제/입력 등 데�
 > 아래의 명령어는 `Unix/Linux 명령어` 이므로 `Window`는 다른 명령어를 이용해야합니다.
 
 > `Window` 명령어로 실행하는 방법은 [Django Girls - 첫번째 Django Project](https://tutorial.djangogirls.org/ko/django_start_project/)에서 확인하실수 있습니다.
+
+<br/>
 
 CMD를 키고 아래의 명령어를 한 줄씩 따라해봅시다! :)
 
@@ -295,7 +303,9 @@ CMD를 키고 아래의 명령어를 한 줄씩 따라해봅시다! :)
 
 ### Git
 
-Git은 너무 복잡하고 설명하려면 한 페이지가 더 필요하기 때문에 [깃, 깃허브 강의 - 구조 및 간단한 버전 관리 예제](https://www.youtube.com/watch?v=ImatGhE_9Ho)로 대체하겠습니다.
+Git은 너무 복잡하고 설명하려면 한 페이지가 더 필요하기 때문에 [깃, 깃허브 강의 - 구조 및 간단한 버전 관리 예제](https://www.youtube.com/watch?v=ImatGhE_9Ho)로 대체하겠습니다. 해당 youtube가 정말 꼼꼼히 잘 설명되어 있습니다. 
+
+하지만 더 자세한 설명을 원하시면, [생활코딩 - 지옥에서 온 Git](https://opentutorials.org/course/2708)을 쭉 보시면 Git을 마스터하실 수 있게 됩니다!!
 
 <br/><br/>
 
