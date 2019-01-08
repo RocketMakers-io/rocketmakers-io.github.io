@@ -266,7 +266,7 @@ CMD를 키고 아래의 명령어를 한 줄씩 따라해봅시다! :)
 
 `$ pip3 install django` : django를 설치합니다.
 
-`$ django-admin startproject 프로젝트이름` : 프로젝트를 현재 경로에 생성합니다. (뒤에 .을 빼면 현재 경로로 생성되지 않습니다.)
+`$ django-admin startproject 프로젝트이름 .` : 프로젝트를 현재 경로에 생성합니다. (뒤에 .을 빼면 현재 경로에 생성되지 않습니다. 현재 경로에 생성되지 않아도 괜찮지만 보통은 현재 경로에 생성되도록 **.** 을 사용합니다.)
 
 `$ python3 manage.py makemigrations` : 마이그레이션 파일(초안) 생성하는 명령어입니다. 아직 모델을 만들지 않았지만, django에서는 기본적으로 정의되어있는 model이 있기 때문에 해당 model을 적용해주어야합니다.
 
