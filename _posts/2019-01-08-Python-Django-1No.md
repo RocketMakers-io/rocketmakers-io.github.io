@@ -2,8 +2,9 @@
 layout: post
 title: Python/Django 입문 스터디 - 1회차
 tags:
-  - HTML
-  - CSS
+  - Python
+  - Django
+  - Backend
 ---
 
 시나몬에서 진행한 **Python/Django 입문 스터디**에서 진행한 내용을 정리했습니다.
