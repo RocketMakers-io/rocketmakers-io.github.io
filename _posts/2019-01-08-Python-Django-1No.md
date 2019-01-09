@@ -18,7 +18,6 @@ tags:
 ## 발표자료
 - 발표자 : 박운철
 - 발표자료 : [Django란 무엇인가?](https://github.com/SinamonDev/SinamonDev.github.io/raw/master/_posts/Presentation/19-01/Django-Study-1Week.pdf)
-+) 오늘 운철님께서 발표하신 자료는 ![Django Study Week 1 (Django란 무엇인가)]() 입니다! :)
 
 <br/><br/>
 
