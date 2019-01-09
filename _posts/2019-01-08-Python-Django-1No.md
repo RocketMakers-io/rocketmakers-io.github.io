@@ -31,23 +31,21 @@ tags:
 
 <br/>
 
-## 팀매칭
+## 팀원
 
-### 팀 1
-
-- 박운철 (팀장)
-- 박정환
-- 이수영
-- 황소현
-- 최주형
-
-### 팀 2
-
-- 이재연 (팀장)
-- 정재호
-- 박이슬
-- 정서경
-- 이혜지
+- 박정욱 (운영진)
+- 팀1
+  - 박운철 (운영진)
+  - 박정환
+  - 이수영
+  - 최주혁
+  - 황소흠
+- 팀2
+  - 이재연 (운영진)
+  - 정재호
+  - 박이슬
+  - 정서경
+  - 강정석
 
 <br/><br/>
 
@@ -57,7 +55,7 @@ tags:
 
 <br/>
 
-#### 1일차
+#### 1일차 (01/08)
 - 오리엔테이션
 
 #### 2일차
@@ -65,49 +63,55 @@ tags:
 - Git 에 대해 간단하게 살펴봅니다.
 
 #### 3일차
-- Django Girls Tutorial 각자 실습을 진행한 내용을 공유합니다.
-- Django architecture에 대해서 알아봅니다.
+- [Django Girls Tutorial](https://tutorial.djangogirls.org/ko/) 각자 실습을 진행한 내용을 공유합니다.
+- [Django architecture](https://developer.mozilla.org/ko/docs/Learn/Server-side/Django/Introduction)에 대해서 알아봅니다.
 
 #### 4일차
-- HTTP 통신 에 대해서 알아봅니다.
-- HTTP이 통신이 무엇인가
-- HTTP Status Code
-- HTTP METHOD (POST, GET, DELETE, PATCH 등)
+
+> ``HTTP 통신`` 에 대해서 알아봅니다.
+
+- [HTTP이 통신이 무엇인가](https://opentutorials.org/course/3385/21673)
+- [HTTP Status Code](https://developer.mozilla.org/ko/docs/Web/HTTP/Status)
+- [HTTP METHOD (POST, GET, DELETE, PATCH 등)](https://developer.mozilla.org/ko/docs/Web/HTTP/Methods)
 
 #### 5일차
-- Django의 Model과 Form에 대해서 알아봅니다.
-- Model (Youtube 9~11)
-	- Relation Field (OneToOne, ForeignKey, ManyToMany)
-	- Reverse Match
-- ORM란
-- Form (Youtube 23~28)
-	- Model Form
-	- Validation
-	- Widget
+> Django의 ``Model``과 ``Form``에 대해서 알아봅니다.
+
+  - Model (Youtube 9~11)
+    - Relation Field (OneToOne, ForeignKey, ManyToMany)
+    - Reverse Match
+    - ORM란
+  - Form (Youtube 23~28)
+    - Model Form
+    - Validation
+    - Widget
 
 
 #### 6일차
-- Django의 Template에 대해서 알아봅니다.
+> Django의 ``Template``에 대해서 알아봅니다.
+
 - Template (Youtube 14~22)
-	- Bootstrap
-	- CSS
-	- HTML
-	- Form
-	- CSRF (Cross-Site Request Forgery)
+  - Bootstrap
+  - CSS
+  - HTML
+  - Form
+  - CSRF (Cross-Site Request Forgery)
 
 
 #### 7일차
-- Django의 View에 대해서 알아봅니다.
+> Django의 ``View``에 대해서 알아봅니다.
+
 - View (Youtube 12~13 29~47)
-	- Render
-	- Redirect
-	- Url Reverse
+  - Render
+  - Redirect
+  - Url Reverse
 
 #### 8일차
-- OAuth2에 대해서 알아보고 Social Login을 실습해봅니다.
+> ``OAuth2``에 대해서 알아보고 ``Social Login``을 실습해봅니다.
+
 - Social Login (KAKAO, User Model)
 - 배포, 팀별 발표
-- 뒤풀이
+- 뒤풀이 (>_<)
 
 <br/><br/>
 
