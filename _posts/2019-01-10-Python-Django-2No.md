@@ -138,7 +138,7 @@ HTML에서 원래 Form을 생성하려면 아래와 같은 코드가 필요했�
 
 Django는 위와 같이 form을 생성하는 수고를 덜어주기 위하여 Form Class을 정의하고, 해당 Form을 아래와 같은 형식으로 코딩하면 정상적으로 동작하도록 개발하였습니다. Form Class를 생성해주고 해당 html에서 아래와 같이 써주면 위의 html과 같은 형식으로 변환됩니다.
 
-```python
+```
 {{ form.as_p }}
 ```
 
@@ -150,11 +150,11 @@ form을 개발하고 웹에 해당 페이지를 띄운 후 크롬의 `Settings >
 
 **Primary Key** 란 `일반적으로 테이블의 각 행을 고유하게 식별하는 값을 가진 열` 이라는 정의를 가지고 있습니다.
 
-만약 `name=이재연 nickname=닉네임` 라는 계정이 존재하고 있다고 가정합니다.
+만약 `name=시나몬 nickname=닉네임` 라는 계정이 존재하고 있다고 가정합니다.
 
-하지만 이름과 닉네임은 같지만 다른 사람인 이재연이 계정을 생성하려고 했을 때 (`name=이재연 nickname=닉네임`) 현재의 필드값으로는 어떤 사람이 어떤 이재연인지 구분할 수 없게 됩니다.
+하지만 이름과 닉네임은 같지만 다른 사람인 시나몬이 계정을 생성하려고 했을 때 (`name=시나몬 nickname=닉네임`) 현재의 필드값으로는 어떤 사람이 어떤 시나몬인지 구분할 수 없게 됩니다.
 
-따라서 보통 ID를 Primary Key로 두어 구분하는데 예를 들어 먼저 온 이재연을 `id=1 name=이재연 nickname=닉네임`이라고 하고 뒤에 온 이재연을 `id=2 name=이재연 nickname=닉네임` 라고 하면 두 개의 값이 명확하게 구분됩니다.
+따라서 보통 ID를 Primary Key로 두어 구분하는데 예를 들어 먼저 온 시나몬을 `id=1 name=시나몬 nickname=닉네임`이라고 하고 뒤에 온 시나몬을 `id=2 name=시나몬 nickname=닉네임` 라고 하면 두 개의 값이 명확하게 구분됩니다.
 
 이처럼 해당 필드를 구분하기 위해 있는 고유값을 Primary Key라고 하고 위의 예제에서는 ID가 Primary Key가 됩니다.
 
@@ -173,7 +173,7 @@ id=2 product=물건2 buyer=시나몬 buyer_address=가로수길 buyer_email=이�
 
 현재는 2개의 필드가 있지만 만약 더 많은 상품을 구매했을 경우 `buyer=시나몬 buyer_address=가로수길 buyer_email=이메일` 이라는 데이터가 계속해서 중복되게 됩니다. 
 
-현재 계정 데이터에는 위의 구매자 데이터에서 필요한 모든 데이터(이름, 주소, 이메일) 들어있기 때문에 **굳이 중복된 데이터를 또 넣어줄 필요가 없습니다.** 
+현재 사용자 데이터에는 위의 구매자 데이터에서 필요한 모든 데이터(이름, 주소, 이메일) 들어있기 때문에 **굳이 중복된 데이터를 또 넣어줄 필요가 없습니다.** 
 
 해당 데이터값을 Foreign Key로 변경하면 아래와 같습니다.
 
@@ -185,7 +185,7 @@ id=2 product=물건2 buyer_id=2
 ...
 ```
 
-위처럼 변경하면 해당 구매자의 주소를 찾을 때 계정 테이블에서 해당 id값의 계정을 찾아 데이터를 불러오면 되기 때문에 훨씬 더 간단해집니다.
+위처럼 변경하면 해당 구매자의 주소를 찾을 때 계정 테이블에서 해당 id값의 계정을 찾아 데이터를 불러오면 되기 때문에 중복되는 데이터가 사라집니다.
 
 이처럼 다른 테이블을 참조하는 값이 Foreign Key이고, 위의 예제에서는 buyer_id가 Foreign Key가 됩니다.
 
@@ -193,17 +193,19 @@ id=2 product=물건2 buyer_id=2
 
 ### objects.get? objects.filter?
 
-object.get과 object.filter는 모두 조건을 이용하여 해당 데이터를 가져오는 작업입니다.
+object.get과 object.filter는 모두 조건을 이용하여 데이터를 가져오는 작업입니다.
 
-`object.get`의 두가지 특징은 아래와 같습니다.
+`object.get`의 두 가지 특징은 아래와 같습니다.
 
 1. 하나의 데이터를 가져옵니다.
-2. 만약 데이터가 없다면 에러를 일으킵니다
+2. 만약 데이터가 없다면 에러를 일으킵니다.
 
 하지만 만약 2개 이상의 데이터가 있다면 `object.filter` 를 이용합니다.
 
-1. 여러개의 데이터값이 배열로 리턴된다.
-2. 만약 데이터가 없으면 빈값을 리턴한다.
+1. 여러개의 데이터값을 배열로 가져옵니다.
+2. 만약 데이터가 없으면 빈 배열을 리턴합니다.
+
+위의 특징을 보고 `get`과 `filter`를 현재 코드에 알맞게 사용하시면 됩니다.
 
 이 외에도 다양한 명령어는 [Django QuerySet](https://docs.djangoproject.com/ko/2.1/ref/models/querysets/)을 참고하시면 됩니다.
 
@@ -276,20 +278,22 @@ USE_TZ = True
 
 만약 model에 부득이하게 한국 시간을 넣어야 할 경우 여러 가지 방법으로 변경할 수 있습니다.
 
-1. timezone.now가 아닌 timezone.localtime으로 변경하기
+**1. timezone.now가 아닌 timezone.localtime으로 변경하기**
 
 ```python
 from django.utils import timezone 
 timezone.localtime()
 ```
 
-2. USE_TZ를 False로 변경하기
+**2. USE_TZ를 False로 변경하기**
 
 USE_TZ을 False로 변경하게되면 timezone을 사용하지 않고, 현재 자신의 서버 시간을 읽어옵니다.
 
 ```python
 USE_TZ = False
 ```
+
+<br/>
 
 추가로 **datetime** 의 경우에는 `현재 서버의 시간` 을 읽어오는 데 이는 **naive datetime** 이라고 해서 timezone을 신경쓰지 않고 시간을 반환합니다. 
 
@@ -300,7 +304,7 @@ USE_TZ = False
 ### blank? Null?
 
 - Null : **DB** 와 관련이 있으며, 주어진 **데이터베이스 컬럼** 이 **null 값** 을 가질 것인지 아닌지를 정의합니다.
-- Blank : 유효성과 관련되어 있다. form.is_valid()가 호출될 때 **폼 유효성 검사** 에 사용됩니다.
+- Blank : 유효성과 관련되어 있으며, form.is_valid()가 호출될 때 **폼 유효성 검사** 에 사용됩니다.
 
 #### +)  예를 들어 null=True,  blank=False 옵션은
 
@@ -315,12 +319,12 @@ USE_TZ = False
 
 또한 Null이 아닌 빈문자열을 사용하는 것이 [Django Convention (장고 코딩 스타일)](https://docs.djangoproject.com/en/2.1/internals/contributing/writing-code/coding-style/) 입니다.
 
-<br/>
+<br/><br/>
 
-이렇게 간단하게 개념을 정리해보았습니다.
+이렇게 간단하게 기본 개념과 심화 개념을 정리해보았습니다.
 
 다음주에는 django girls tutorial을 한번씩 실습해보고 각 팀별 발제자가 발표하는 형식으로 진행될 예정입니다!!!
 
-각 팀별 발제자분들은 모두 힘을 내서 발제를 준비해주시길 바랍니다.
+각 팀별 발제자분들은 모두 열심히 발제를 준비해주시길 바랍니다.
 
 그럼 다음주 화요일에 뵙겠습니다! :) 
