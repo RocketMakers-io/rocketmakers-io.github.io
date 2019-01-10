@@ -2,9 +2,9 @@
 layout: post
 title: Python/Django 입문 스터디 - 1회차
 tags:
-  - Python
-  - Django
-  - Backend
+- Python
+- Django
+- Backend
 ---
 
 안녕하세요! 오늘은 저희 스터디의 첫번째 모임이었습니다! :)
@@ -35,17 +35,17 @@ tags:
 
 - 박정욱 (운영진)
 - 팀1
-  - 박운철 (운영진)
-  - 박정환
-  - 이수영
-  - 최주혁
-  - 황소흠
+- 박운철 (운영진)
+- 박정환
+- 이수영
+- 최주혁
+- 황소흠
 - 팀2
-  - 이재연 (운영진)
-  - 정재호
-  - 박이슬
-  - 정서경
-  - 강정석
+- 이재연 (운영진)
+- 정재호
+- 박이슬
+- 정서경
+- 강정석
 
 <br/><br/>
 
@@ -77,34 +77,34 @@ tags:
 #### 5일차
 > Django의 ``Model``과 ``Form``에 대해서 알아봅니다.
 
-  - Model (Youtube 9~11)
-    - Relation Field (OneToOne, ForeignKey, ManyToMany)
-    - Reverse Match
-    - ORM란
-  - Form (Youtube 23~28)
-    - Model Form
-    - Validation
-    - Widget
+- Model (Youtube 9~11)
+- Relation Field (OneToOne, ForeignKey, ManyToMany)
+- Reverse Match
+- ORM란
+- Form (Youtube 23~28)
+- Model Form
+- Validation
+- Widget
 
 
 #### 6일차
 > Django의 ``Template``에 대해서 알아봅니다.
 
 - Template (Youtube 14~22)
-  - Bootstrap
-  - CSS
-  - HTML
-  - Form
-  - CSRF (Cross-Site Request Forgery)
+- Bootstrap
+- CSS
+- HTML
+- Form
+- CSRF (Cross-Site Request Forgery)
 
 
 #### 7일차
 > Django의 ``View``에 대해서 알아봅니다.
 
 - View (Youtube 12~13 29~47)
-  - Render
-  - Redirect
-  - Url Reverse
+- Render
+- Redirect
+- Url Reverse
 
 #### 8일차
 > ``OAuth2``에 대해서 알아보고 ``Social Login``을 실습해봅니다.
@@ -241,20 +241,20 @@ Django가 어떻게 동작하는지 일련의 과정을 살펴봅시다.
 ### 개발툴
 
 - [Visual Code 다운로드](https://code.visualstudio.com/download)
-	- Microsoft에서 개발한 강력한 Editor
-	- Opensource
+- Microsoft에서 개발한 강력한 Editor
+- Opensource
 
 - [PyCharm 다운로드](https://www.jetbrains.com/pycharm/download/)
-	- Intellij에서 개발한 Python에 특화된 Editor
-	- 현재 Python 개발자들이 가장 많이 사용
-	- 학생은 무료 & 일반인은 유료
+- Intellij에서 개발한 Python에 특화된 Editor
+- 현재 Python 개발자들이 가장 많이 사용
+- 학생은 무료 & 일반인은 유료
 
 - [Sublime 다운로드](https://www.sublimetext.com/3)
-	- 다양한 기능을 제공하며 가벼운 Editor
-	- 저장시 Donate를 위한 알림창이 간헐적으로 열림
+- 다양한 기능을 제공하며 가벼운 Editor
+- 저장시 Donate를 위한 알림창이 간헐적으로 열림
 
 - [Atom 다운로드](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
-	- Sublime과 같이 많이 사용하는 가벼운 Editor
+- Sublime과 같이 많이 사용하는 가벼운 Editor
 
 <br/><br/>
 
