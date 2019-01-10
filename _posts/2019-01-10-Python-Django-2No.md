@@ -11,9 +11,23 @@ tags:
 
 오늘은 장고 걸스 튜토리얼을 보면서 따라해보는 라이브 코딩시간을 가졌습니다.
 
-다들 처음에는 느리지만, 이후에 조금 익숙해지시면 점점 빨라지는 것을 느끼실 수 있습니다! :)
+다들 처음에는 느리지만, 이후에 조금 익숙해지시면 점점 빨라지는 것을 느끼실 수 있을 것입니다! :)
 
 오늘한 내용과 간단한 개념들 그리고 심화 내용을 정리해보도록 하겠습니다.
+
+<br/><br/>
+
+### Django 흐름 이해하기
+
+![[그림 1] Django 코드 흐름](https://github.com/SinamonDev/SinamonDev.github.io/blob/master/_posts/Images/19-01/django-working-flow.png?raw=true){: width="400px"}
+
+이 그림을 확인한 후 개발을 진행하면 더욱 개발이 편리해집니다.
+
+사용자가 **URL** 을 치면 Url에 있는 **View** 로 가고 View에서 **Model** 로 접근하여 데이터를 얻어옵니다. 
+
+데이터를 얻어온 후 가져온 데이터를 View로 가져가고, View는 **Template** 에 해당 데이터를 주고 Template은 해당 데이터를 화면에 보여줍니다.
+
+이 흐름을 이해하시면, 원하는 페이지를 개발할 때 어떤 순서로 개발해야할지가 눈에 보이게 됩니다.
 
 <br/><br/>
 
@@ -71,23 +85,15 @@ pip에도 버전이 있기 때문에 pip의 버전도 고려해서 설치를 진
 
 이후부터는 [django girls tutorial](https://tutorial.djangogirls.org/ko/)을 따라하시면 됩니다. 
 
-[github]()에 코드를 올려놓았으니 참고하시면 됩니다. (각 코드의 주석을 잘 읽어보시면서 진행하시면 될것 같습니다.)
+[github](https://github.com/django-study-1st/django-girls-tutorial)에 코드를 올려놓았으니 참고하시면 됩니다. 
 
 <br/><br/>
 
-### Django 흐름 이해하기
+## 추가 간단한 개념
 
-![[그림 1] Django 코드 흐름](https://github.com/SinamonDev/SinamonDev.github.io/blob/master/_posts/Images/19-01/django-working-flow.png?raw=true){: width="400px"}
+코딩을 진행하면서 필요한 개념을 간단하게 정리하였습니다.
 
-이 그림을 확인한 후 개발을 진행하면 더욱 개발이 편리해집니다.
-
-사용자가 **URL** 을 치면 Url에 있는 **View** 로 가고 View에서 **Model** 로 접근하여 데이터를 얻어옵니다. 
-
-데이터를 얻어온 후 가져온 데이터를 View로 가져가고, View는 **Template** 에 해당 데이터를 주고 Template은 해당 데이터를 화면에 보여줍니다.
-
-이 흐름을 이해하시면, 원하는 페이지를 개발할 때 어떤 순서로 개발해야할지가 눈에 보이게 됩니다.
-
-<br/><br/>
+<br/>
 
 ### makemigrations? migrate?
 
@@ -219,21 +225,6 @@ object.get과 object.filter는 모두 조건을 이용하여 해당 데이터를
 - gte : 크거나 같은 것
 
 더 많은 조건 키워드는 [Django 조건 키워드](http://brownbears.tistory.com/63)를 참고하시면 됩니다.
-
-<br/><br/>
-
-### Database
-
-데이터를 저장하는 공간입니다.
-
-현재 Django는 sqlite3를 사용하고 있지만 sqlite3 이외에도 다양한 데이터베이스가 있습니다.
-
-ORM을 지원하는 대표적인 데이터페이스는 Postgresql이 있습니다.
-
-- sqlite : 서버가 아니라 응응프로그램에 넣어 사용하는 **비교적 가벼운 데이터베이스**
-- Postgresql : ORDBMS(객체 관계형 데이터베이스 시스템)을 지원하는 오픈소스 데이터베이스 ([참고 - Postgresql이란](https://d2.naver.com/helloworld/227936))
-
-이외에도 다양한 데이터베이스 종류가 있으니 한번 확인해보시면 좋을 것 같습니다! :)
 
 <br/><br/>
 
