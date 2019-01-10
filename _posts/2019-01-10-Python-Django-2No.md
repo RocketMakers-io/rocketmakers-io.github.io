@@ -21,8 +21,6 @@ tags:
 
 ![[그림 1] Django 코드 흐름](https://github.com/SinamonDev/SinamonDev.github.io/blob/master/_posts/Images/19-01/django-working-flow.png?raw=true){: width="400px"}
 
-이 그림을 확인한 후 개발을 진행하면 더욱 개발이 편리해집니다.
-
 사용자가 **URL** 을 치면 Url에 있는 **View** 로 가고 View에서 **Model** 로 접근하여 데이터를 얻어옵니다. 
 
 데이터를 얻어온 후 가져온 데이터를 View로 가져가고, View는 **Template** 에 해당 데이터를 주고 Template은 해당 데이터를 화면에 보여줍니다.
@@ -65,7 +63,7 @@ pip는 **Python Package Index (PyPI) 저장소** 로부터 파이썬 패키지�
 
 PyPI란 (가끔 The Cheeseshop 이라고도 불리는)는 **third-party 파이썬 오픈소스 패키지들을 위한 저장소** 입니다.
 
-즉 pip은 _PyPI에 있는 third-party 패키지를 설치하고 관리해주는 패키지 관리 도구_ 입니다.
+즉 `pip은 PyPI에 있는 third-party 패키지를 설치하고 관리해주는 패키지 관리 도구` 입니다.
 
 pip에도 버전이 있기 때문에 pip의 버전도 고려해서 설치를 진행해야합니다. 
 
@@ -81,13 +79,15 @@ pip에도 버전이 있기 때문에 pip의 버전도 고려해서 설치를 진
 
 이후부터는 [django girls tutorial](https://tutorial.djangogirls.org/ko/)을 따라하시면 됩니다. 
 
-[github](https://github.com/django-study-1st/django-girls-tutorial)에 코드를 올려놓았으니 참고하시면 됩니다. 
+[github](https://github.com/django-study-1st/django-girls-tutorial)에 코드를 올려놓았으니 참고하셔서 개발하시면 될것 같습니다.
+
++) 현재 django girls tutorial은 최신 버전이 아니기 때문에 (Version 1.11.0) 제가 진행한 코드와 다를 수 있습니다. 이 점 참고 부탁드립니다.
 
 <br/><br/><br/><br/>
 
-## 추가 간단한 개념
+## 추가 개념
 
-코딩을 진행하면서 필요한 개념을 간단하게 정리하였습니다.
+코드를 이해하기 위해 필요한 개념을 정리해보았습니다.
 
 <br/>
 
@@ -97,18 +97,21 @@ Django는 DB에 적용하기 전 **migration file** 을 생성합니다. (`makem
 
 이 migration file을 읽어서 DB에 적용이 되게 됩니다. (`migrate`)
 
-즉 model을 생성하면 꼭!! 
+즉 model을 정의하면 꼭!! 
 
 `$ python manage.py makemigrations` 
 
 `$ python manage.py migrate` 를 진행하여 생성한 모델은 DB에 적용시킬 수 있도록 합니다.
 
-#### [TIP](https://wayhome25.github.io/django/2017/03/20/django-ep6-migrations/)
+#### Tip
 
 - `$ python manage.py makemigrations [app-name]` 과 같이 App name을 명시하여 예상치 못한 migration을 방지할 수 있습니다.
 - `$ python manage.py showmigrations` 를 통해서 **적용 상태를 조회** 할 수 있습니다. ([x] : 적용 후 []: 적용 전)
 - **이미 적용한 migration 파일은 절대로 지우면 안됩니다.**
 - `no such table` , `column` 등의 오류가 보이면 migration 대부분이 migration오류이니, migration을 진행해주시면 됩니다.
+
+
+[참고 - Django Migration](https://wayhome25.github.io/django/2017/03/20/django-ep6-migrations/)
 
 <br/><br/>
 
@@ -136,7 +139,7 @@ HTML에서 원래 Form을 생성하려면 아래와 같은 코드가 필요했�
 
 위의 코드에서는 현재 team name을 text type 으로 받고 있고 submit 버튼을 누르면 POST method로 해당 데이터가 전송되는 것을 볼 수 있습니다.
 
-Django는 위와 같이 form을 생성하는 수고를 덜어주기 위하여 Form Class을 정의하고, 해당 Form을 아래와 같은 형식으로 코딩하면 정상적으로 동작하도록 개발하였습니다. Form Class를 생성해주고 해당 html에서 아래와 같이 써주면 위의 html과 같은 형식으로 변환됩니다.
+Django는 위와 같이 form을 생성하는 수고를 덜어주기 위하여 Form Class을 정의하고, 해당 Form을 아래와 같은 형식으로 코딩하면 정상적으로 동작하도록 개발하였습니다.
 
 ```
 {{ form.as_p }}
