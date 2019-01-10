@@ -314,3 +314,13 @@ USE_TZ = False
 이는 `데이터 없음` 에 대한 두가지 값 (`None`, `빈문자열`)을 갖게 되기 때문에 이는 중복을 야기합니다.
 
 또한 Null이 아닌 빈문자열을 사용하는 것이 [Django Convention (장고 코딩 스타일)](https://docs.djangoproject.com/en/2.1/internals/contributing/writing-code/coding-style/) 입니다.
+
+<br/>
+
+이렇게 간단하게 개념을 정리해보았습니다.
+
+다음주에는 django girls tutorial을 한번씩 실습해보고 각 팀별 발제자가 발표하는 형식으로 진행될 예정입니다!!!
+
+각 팀별 발제자분들은 모두 힘을 내서 발제를 준비해주시길 바랍니다.
+
+그럼 다음주 화요일에 뵙겠습니다! :) 
