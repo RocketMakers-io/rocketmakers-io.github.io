@@ -59,8 +59,6 @@ tags:
 
 ( **프로젝트 안에 있는 settings.py의 DEBUG=TRUE 일때 즉 개발환경일 때만 이 화면이 보입니다.** )
 
-<br/>
-
 #### +) pip이란 무엇인가?
 
 pip는 **Python Package Index (PyPI) 저장소** 로부터 파이썬 패키지를 받아 설치하는 **패키지 관리 도구** 입니다.
@@ -70,8 +68,6 @@ PyPI란 (가끔 The Cheeseshop 이라고도 불리는)는 **third-party 파이�
 즉 pip은 _PyPI에 있는 third-party 패키지를 설치하고 관리해주는 패키지 관리 도구_ 입니다.
 
 pip에도 버전이 있기 때문에 pip의 버전도 고려해서 설치를 진행해야합니다. 
-
-<br/>
 
 #### +) 가상 환경을 왜 사용하는가?
 
@@ -87,7 +83,7 @@ pip에도 버전이 있기 때문에 pip의 버전도 고려해서 설치를 진
 
 [github](https://github.com/django-study-1st/django-girls-tutorial)에 코드를 올려놓았으니 참고하시면 됩니다. 
 
-<br/><br/>
+<br/><br/><br/><br/>
 
 ## 추가 간단한 개념
 
@@ -106,8 +102,6 @@ Django는 DB에 적용하기 전 **migration file** 을 생성합니다. (`makem
 `$ python manage.py makemigrations` 
 
 `$ python manage.py migrate` 를 진행하여 생성한 모델은 DB에 적용시킬 수 있도록 합니다.
-
-<br/>
 
 #### [TIP](https://wayhome25.github.io/django/2017/03/20/django-ep6-migrations/)
 
@@ -164,8 +158,6 @@ form을 개발하고 웹에 해당 페이지를 띄운 후 크롬의 `Settings >
 
 이처럼 해당 필드를 구분하기 위해 있는 고유값을 Primary Key라고 하고 위의 예제에서는 ID가 Primary Key가 됩니다.
 
-<br/>
-
 **Foreign Key** 란 `두 테이블의 데이터 간 연결을 설정하고 강제 적용하여 외래 키 테이블에 저장될 수 있는 데이터를 제어` 라는 정의를 가지고 있습니다.
 
 만약 시나몬이라는 사용자 (`id=1 name=시나몬 nickname=시나몬 address=가로수길 email=이메일`)가 물건을 구매한 내역을 저장한다고 가정합니다.
@@ -217,7 +209,7 @@ object.get과 object.filter는 모두 조건을 이용하여 해당 데이터를
 
 <br/><br/>
 
-### lte? get?
+### lte? gte?
 
 조건 키워드 중 하나입니다.
 
@@ -240,11 +232,11 @@ object.get과 object.filter는 모두 조건을 이용하여 해당 데이터를
 
 [참고 - CSRF Token이란?](https://itstory.tk/entry/CSRF-%EA%B3%B5%EA%B2%A9%EC%9D%B4%EB%9E%80-%EA%B7%B8%EB%A6%AC%EA%B3%A0-CSRF-%EB%B0%A9%EC%96%B4-%EB%B0%A9%EB%B2%95)
 
-웹 어플리케이션 취약점 중 하나로 인터넷 사용자(희생자)가 자신의 의지와는 무관하게 공격자가 의도한 행위(수정, 삭제, 등록 등)를 특정 웹사이트에 요청하게 만드는 공격입니다.
+웹 어플리케이션 취약점 중 하나로 **인터넷 사용자(희생자)가 자신의 의지와는 무관하게 공격자가 의도한 행위(수정, 삭제, 등록 등)를 특정 웹사이트에 요청하게 만드는 공격** 입니다.
 
 즉 POST를 실행할 때 (데이터를 수정하거나 입력할 때), 사용자가 의도하지 않은 데이터를 넣어 (예를 들어 Facebook이라면 자신의 피드에 광고성 포스트가 뜨도록 한다.) 실행을 시켜 공격을 하는 방법입니다.
 
-이를 방어하기 위하여, 사용자의 세션에 임의의 난수 값을 저장하고 사용자의 요청 마다 해당 난수 값을 포함 시켜 전송시킵니다(CSRF Token). 이후 Back-end 단에서 요청을 받을 때마다 세션에 저장된 토큰 값과 요청 파라미터에 전달되는 토큰 값이 일치하는 지 검증하여 해당 공격을 방어하는 방법입니다. 
+이를 방어하기 위하여, **사용자의 세션에 임의의 난수 값을 저장하고 사용자의 요청 마다 해당 난수 값을 포함 시켜 전송시킵니다(CSRF Token)** . 이후 Back-end 단에서 요청을 받을 때마다 세션에 저장된 토큰 값과 요청 파라미터에 전달되는 토큰 값이 일치하는 지 검증하여 해당 공격을 방어하는 방법입니다. 
 
 <br/><br/>
 
@@ -276,17 +268,13 @@ USE_TZ = True
 
 하지만 **admin에서는 Asia/Seoul로 변경** 이 되어있고 **created_date를 웹에 출력했을 때도 Asia/Seoul** 로 되어있습니다.
 
-<br/>
-
 이는 Django에서 각 **세계의 시간을 편리하게 설정** 할 수 있게 하기 위하여 **model에는 UTC** 를 그리고 불러올 때는 **settings.py에 있는 TIMEZONE** 을 적용하여 데이터를 불러도록 하였습니다.
 
 > 만약 현재 한국의 시간으로 model의 컬럼을 생성하였을 때, 미국에 맞게 변경을 하려면 해당 컬럼을 직접 변경하거나, 컬럼을 가져올 때 마다 변경을 해야합니다. 
 
-하지만 Django에서는 UTC의 값을 읽고 settings.py에 있는 TIME_ZONE의 값으로 시간을 자동으로 변경하여 출력해줍니다.
+위와 같은 불편한 점을 해결하기 위하여 Django에서는 UTC의 값을 읽고 settings.py에 있는 TIME_ZONE의 값으로 시간을 자동으로 변경하여 출력해줍니다.
 
 만약 model에 부득이하게 한국 시간을 넣어야 할 경우 여러 가지 방법으로 변경할 수 있습니다.
-
-<br/>
 
 1. timezone.now가 아닌 timezone.localtime으로 변경하기
 
@@ -295,8 +283,6 @@ from django.utils import timezone
 timezone.localtime()
 ```
 
-<br/>
-
 2. USE_TZ를 False로 변경하기
 
 USE_TZ을 False로 변경하게되면 timezone을 사용하지 않고, 현재 자신의 서버 시간을 읽어옵니다.
@@ -304,8 +290,6 @@ USE_TZ을 False로 변경하게되면 timezone을 사용하지 않고, 현재 �
 ```python
 USE_TZ = False
 ```
-
-<br/>
 
 추가로 **datetime** 의 경우에는 `현재 서버의 시간` 을 읽어오는 데 이는 **naive datetime** 이라고 해서 timezone을 신경쓰지 않고 시간을 반환합니다. 
 
@@ -318,14 +302,10 @@ USE_TZ = False
 - Null : **DB** 와 관련이 있으며, 주어진 **데이터베이스 컬럼** 이 **null 값** 을 가질 것인지 아닌지를 정의합니다.
 - Blank : 유효성과 관련되어 있다. form.is_valid()가 호출될 때 **폼 유효성 검사** 에 사용됩니다.
 
-<br/>
-
 #### +)  예를 들어 null=True,  blank=False 옵션은
 
 - null=True : **DB 레벨** 에서는 해당 필드가 NULL 될 수 있음을 의미합니다.
-- blank=Fals : **Application 레벨** 에서는 해당 컬럼 값이 꼭 있어야하는 required 필드를 의미합니다. 
-
-<br/>
+- blank=False : **Application 레벨** 에서는 해당 컬럼 값이 꼭 있어야하는 required 필드를 의미합니다. 
 
 #### 주의해야할 점
 
