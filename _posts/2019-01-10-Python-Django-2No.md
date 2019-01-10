@@ -141,11 +141,9 @@ HTML에서 원래 Form을 생성하려면 아래와 같은 코드가 필요했�
 
 Django는 위와 같이 form을 생성하는 수고를 덜어주기 위하여 Form Class을 정의하고, 해당 Form을 아래와 같은 형식으로 코딩하면 정상적으로 동작하도록 개발하였습니다.
 
-```
-{{ form.as_p }}
-```
+`{{ form.as_p }}`
 
-form을 개발하고 웹에 해당 페이지를 띄운 후 크롬의 `Settings > More Tools > Developer Tools` 에 가셔서 `Sources` 탭에 해당 웹페이지의 소스를 보시면 위의 html과 같은 코드를 확인하실 수 있습니다.
+form을 개발하고 웹에 해당 페이지를 띄운 후 크롬의 `Settings > More Tools > Developer Tools` 에 가셔서 `Sources` 탭에서 해당 웹페이지의 소스를 보시면 위의 `{{ form.as_p }}` 이 위의 html과 같은 코드로 바뀐 것을 확인하실 수 있습니다.
 
 <br/><br/>
 
@@ -155,9 +153,9 @@ form을 개발하고 웹에 해당 페이지를 띄운 후 크롬의 `Settings >
 
 만약 `name=시나몬 nickname=닉네임` 라는 계정이 존재하고 있다고 가정합니다.
 
-하지만 이름과 닉네임은 같지만 다른 사람인 시나몬이 계정을 생성하려고 했을 때 (`name=시나몬 nickname=닉네임`) 현재의 필드값으로는 어떤 사람이 어떤 시나몬인지 구분할 수 없게 됩니다.
+하지만 이름과 닉네임은 같지만 다른 사람인 시나몬이 계정을 생성하려고 했을 때 (`name=시나몬 nickname=닉네임`) 현재의 필드값으로는 어떤 사람이 어떤 사용자인지 구분할 수 없게 됩니다.
 
-따라서 보통 ID를 Primary Key로 두어 구분하는데 예를 들어 먼저 온 시나몬을 `id=1 name=시나몬 nickname=닉네임`이라고 하고 뒤에 온 시나몬을 `id=2 name=시나몬 nickname=닉네임` 라고 하면 두 개의 값이 명확하게 구분됩니다.
+따라서 이를 구분하기 위해 고유한 식별값이 Primary Key를 사용합니다. 보통 ID를 Primary Key로 두어 구분하는데 예를 들어 먼저 온 시나몬을 `id=1 name=시나몬 nickname=닉네임`이라고 하고 뒤에 온 시나몬을 `id=2 name=시나몬 nickname=닉네임` 라고 하면 두 개의 값이 명확하게 구분됩니다.
 
 이처럼 해당 필드를 구분하기 위해 있는 고유값을 Primary Key라고 하고 위의 예제에서는 ID가 Primary Key가 됩니다.
 
@@ -257,7 +255,7 @@ TIME_ZONE = 'Asia/Seoul'
 USE_TZ = True
 ```
 
-위의 한글과 TIMEZONE을 서울로 바꾸었다면 위와 같이 Setting이 되어있을 것입니다.
+언어를 한글로 TIMEZONE을 서울로 바꾸었다면 위와 같이 Setting이 되어있을 것입니다.
 
 혹시 model을 생성하고 `created_date` 를 유심히 살펴보셨다면, 해당 필드에 created_date는 `UTC를 기준` 으로 데이터가 들어간 것을 보실 수 있습니다.
 
@@ -322,9 +320,11 @@ USE_TZ = False
 
 또한 Null이 아닌 빈문자열을 사용하는 것이 [Django Convention (장고 코딩 스타일)](https://docs.djangoproject.com/en/2.1/internals/contributing/writing-code/coding-style/) 입니다.
 
+[참고 - Blank or Null? 번역문](https://wayhome25.github.io/django/2017/09/23/django-blank-null/)
+
 <br/><br/>
 
-이렇게 간단하게 기본 개념과 심화 개념을 정리해보았습니다.
+이렇게 기본 개념과 심화 개념을 정리해보았습니다.
 
 다음주에는 django girls tutorial을 한번씩 실습해보고 각 팀별 발제자가 발표하는 형식으로 진행될 예정입니다!!!
 
