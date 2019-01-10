@@ -226,7 +226,7 @@ object.get과 object.filter는 모두 조건을 이용하여 해당 데이터를
 
 더 많은 조건 키워드는 [Django 조건 키워드](http://brownbears.tistory.com/63)를 참고하시면 됩니다.
 
-<br/><br/>
+<br/><br/><br/><br/>
 
 ## 심화
 
