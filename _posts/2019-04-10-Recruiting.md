@@ -7,6 +7,8 @@ tags:
 - React
 ---
 
+티릴리에서 프론트엔드 개발자를 채용하고 있습니다.
+
 ## Tirrilee (티릴리)
 
 <img src='https://github.com/SinamonDev/SinamonDev.github.io/blob/master/images/logo.png?raw=true' height='200px' width='200px'/>
