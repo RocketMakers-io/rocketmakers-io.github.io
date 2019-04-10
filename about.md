@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-IT 오프라인 모임 플랫폼을 준비중인 시나몬 입니다!
+당신의 개발 파트너, 티릴리 입니다.
 
 ### 문의하기
 
-[contact@sinamon.io](mailto:contact@sinamon.io)
+[wkddnjset@gmail.com](mailto:wkddnjset@gmail.com)
