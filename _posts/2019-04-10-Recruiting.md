@@ -20,6 +20,7 @@ tags:
 저희는 현재 3명의 팀원이 함께 일하고 있습니다.
 
 > Project Management (1명)
+
 > Backend Developer (Django, Django Rest Framework) (2명)
 
 지금은 작은 규모이지만, 함께 같은 목표로 달려나간다면 훗날 저희가 추구하는 서비스와 가치에 맞는 회사가 될 것임을 기대하고 있습니다.
