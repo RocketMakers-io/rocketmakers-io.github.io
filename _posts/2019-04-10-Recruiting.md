@@ -11,7 +11,7 @@ tags:
 
 ## Tirrilee (티릴리)
 
-<img src='https://github.com/SinamonDev/SinamonDev.github.io/blob/master/images/logo.png?raw=true' height='200px' width='200px'/>
+<img src='https://github.com/Tirrilee/tirrilee.github.io/blob/master/images/logo.png?raw=true' height='200px' width='200px'/>
 
 안녕하세요. **당신의 개발 파트너, 티릴리**입니다.
 
