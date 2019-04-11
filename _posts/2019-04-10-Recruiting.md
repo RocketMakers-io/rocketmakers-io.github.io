@@ -11,7 +11,7 @@ tags:
 
 ## Tirrilee 소개
 
-<img src='https://github.com/Tirrilee/tirrilee.github.io/blob/master/images/logo.png?raw=true' height='200px' width='200px'/>
+<img src='https://github.com/Tirrilee/tirrilee.github.io/blob/master/images/banner.png?raw=true' width='800px'/>
 
 안녕하세요. **당신의 개발 파트너, 티릴리**입니다.
 
@@ -25,14 +25,6 @@ tags:
 
 지금은 작은 규모이지만, 함께 같은 목표로 달려나간다면 훗날 저희가 추구하는 서비스와 가치에 맞는 회사가 될 것임을 기대하고 있습니다.
 
-
-<br/>
-
-## 파트너 소개 (서비스 위주)
-
-저희의 파트너사인 **봉고**는 현재 요식업 관련 스타트업으로 출장 뷔폐, 케이터링, 도시락 배달등의 서비스를 활발히 진행하고 있습니다.
-
-~파트너 소개~ ~파트너 소개~
 
 <br/>
 
@@ -87,7 +79,7 @@ tags:
 질문과 지원 모두 자유로우니 편하게 연락부탁드립니다! :)
 
 - Phone : 01024932906
-- Email : wkdnjset@gmail.com
+- Email : wkdnjset@naver.com
 
 <br/>
 
