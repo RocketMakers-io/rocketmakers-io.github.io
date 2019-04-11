@@ -15,13 +15,13 @@ tags:
 
 안녕하세요. **당신의 개발 파트너, 티릴리**입니다.
 
-저희는 개발팀이 없는 회사를 위해 파트너쉽을 맺고 지속적으로 개발 및 유지보수를 진행하는 서비스를 운영하고 있습니다.
+저희는 개발팀이 없는 회사를 위해 파트너쉽을 맺고 지속적으로 개발 및 유지보수를 진행하며, 자사 서비스를 개발
 
-저희는 현재 3명의 팀원이 함께 일하고 있습니다.
+저희는 현재 4명의 팀원이 함께 일하고 있습니다.
 
-> Project Management (1명)
+> Project Management & Frontend Developer (1명)
 
-> Backend Developer (Django, Django Rest Framework) (2명)
+> Backend Developer (Django, Django Rest Framework) (3명)
 
 지금은 작은 규모이지만, 함께 같은 목표로 달려나간다면 훗날 저희가 추구하는 서비스와 가치에 맞는 회사가 될 것임을 기대하고 있습니다.
 
