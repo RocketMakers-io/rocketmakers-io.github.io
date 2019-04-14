@@ -73,7 +73,7 @@ tags:
 질문과 지원 모두 자유로우니 편하게 연락부탁드립니다! :)
 
 - Phone : 01024932906
-- Email : wkdnjset@naver.com
+- Email : wkddnjset@naver.com
 
 <br/>
 
