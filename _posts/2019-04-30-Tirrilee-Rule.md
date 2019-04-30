@@ -199,6 +199,7 @@ class CultureTag(models.Model):
 
 - filter와 get의 결과에 대한 변수명은 아래와 같이 작성하며, 3개 이상의 파라미터가 필요한 경우 띄어쓰기를 진행한다.
 - 3개 이상의 파라미터가 있어 tuple로 작성한 경우 마지막에 **,** 를 작성한다.
+
 ```python
 snippet_qs = Snippet.objects.filter(
 								like=True,
