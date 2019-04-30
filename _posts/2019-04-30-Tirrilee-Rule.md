@@ -42,10 +42,10 @@ master - develop - feature/ - feature-작업단위
 
 ### 개요
 
-> 커밋 제목 : `[ 작업 액션 ]` `[ 작업 단위 ]`
+#### 커밋 제목 : `[ 작업 액션 ]` `[ 작업 단위 ]`
   * `[( Init, Add, Fix, HotFix, Improve, ...)]` 중 택일 + `[ 작업 단위에 대한 개요 ]`
 
-> 커밋 설명 : 설명
+#### 커밋 설명 : 설명
   * `[설명]` : 추가 상세 설명 내용은 커밋 제목 하단에 내용으로 추가한다
 
 #### 작업 액션
@@ -168,6 +168,7 @@ $> git push origin {branch}
 ## Django
 
 - import는 **알파벳 순** 으로 정렬한다.
+
 ```python
 # Django, DjangoRestFramework 등의 Library 순서
 from django.db import models
@@ -185,6 +186,7 @@ from apps.snippet.models import Snippet
 ```
 
 - Class = Carmel Case, Extra = Snake Case
+
 ```python
 # Carmel Case
 class CultureTag(models.Model):
@@ -207,11 +209,15 @@ snippet_qs = Snippet.objects.filter(
 # 단 get을 사용할 때는 Error를 주의하자
 snippet = Snippet.objects.get(id=10)
 ```
+
 - kwargs.get 에 default 설정하고 `''`대신 `None`을 사용한다.
+
 ```python
 user = kwargs.get('user', None)
 ```
+
 - Class 사이는 2번, Class 내의 함수에서는 1번 띄어쓴다.
+
 ```python
 from django.db import models
 # 2칸 띄어쓰기
