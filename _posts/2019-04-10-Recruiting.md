@@ -1,11 +1,12 @@
 ---
 layout: post
-title: [마감]티릴리에서 Frontend 개발자를 채용합니다!
+title: (마감)티릴리에서 Frontend 개발자를 채용합니다!
 tags:
 - Recruiting
 - Frontend
 - React
 ---
+
 
 > 감사합니다. 해당 공고는 이미 모집이 완료된 채용 공고입니다!
 
