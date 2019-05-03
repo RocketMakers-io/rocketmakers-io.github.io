@@ -1,12 +1,12 @@
 ---
 layout: post
-title: 티릴리의 사내 문화
+title: 티릴리의 Ground Rule
 tags:
 - Rule
 - Culture
 ---
 
-티릴리에서 업무를 진행하는 중 지켜야할 사내 문화에 대해서 설명합니다! :)
+티릴리에서 업무효율을 위해 정한 Ground Rule에 대해서 설명합니다! :)
 
 # 사내규칙
 
