@@ -1,6 +1,6 @@
 ---
 layout: post
-title: EB를 사용해 Django Crontab 세팅하기
+title: EB로 Django Crontab 배포하기
 tags:
 - Backend, Elastic Beanstalk, AWS, Django, Crontab
 ---
@@ -208,3 +208,16 @@ files:
 ### 로그 결과
 <img src='https://github.com/Tirrilee/tirrilee.github.io/blob/master/images/2020-02-04.png?raw=true' width='400px'/>
 
+### P.S
+
+아래 코드를 `~project/.ebextansion/01_start_cron.config` 여기에 추가해서 배포하면, 로그를 AWS 웹상에서 확인할 수 있다.
+
+```
+files:
+  "/opt/elasticbeanstalk/tasks/taillogs.d/crontab.conf" :
+    mode: "000755"
+    owner: root
+    group: root
+    content: |
+      /var/log/crontab.log
+```
