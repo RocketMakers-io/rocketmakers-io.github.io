@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Elastic Beanstalk를 사용해 Django Crontab 세팅하기
+title: EB를 사용해 Django Crontab 세팅하기
 tags:
-- Backend
+- Backend, Elastic Beanstalk, AWS, Django, Crontab
 ---
 
 
