@@ -206,5 +206,5 @@ files:
 ```
 
 ### 로그 결과
-<img src='https://github.com/Tirrilee/tirrilee.github.io/blob/master/images/스크린샷 2020-02-04 오전 11.07.42.png?raw=true' width='400px'/>
+<img src='https://github.com/Tirrilee/tirrilee.github.io/blob/master/images/2020-02-04.png?raw=true' width='400px'/>
 
