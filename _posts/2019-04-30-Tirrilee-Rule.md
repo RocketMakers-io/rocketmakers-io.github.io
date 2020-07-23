@@ -4,6 +4,7 @@ title: 티릴리의 Ground Rule
 tags:
 - Rule
 - Culture
+hidden: true
 ---
 
 티릴리에서 업무효율을 위해 정한 Ground Rule에 대해서 설명합니다! :)
@@ -11,11 +12,9 @@ tags:
 # 기본사항 
 
 1. 출근 : 10시 ~ 11시
-2. 오전 미팅 : 11시 ~ 11시 30분
-3. 점심시간 : 13시 ~ 14시
-4. 퇴근시간 : 출근 시간으로 부터 9시간 뒤 자율퇴근
-5. 코드 리뷰 : 금요일 종일
-6. 호칭 : 상호간에 ~님 호칭
+2. 점심시간 : 13시 ~ 14시
+3. 퇴근시간 : 출근 시간으로 부터 9시간 뒤 자율퇴근
+4. 호칭 : 상호간에 ~님 호칭
 
 <br/>
 
@@ -42,7 +41,7 @@ master - develop - feature/ - feature-작업단위
 
 ### 개요
 
-#### 커밋 제목 : `[ 작업 액션 ]` `[ 작업 단위 ]`
+#### 커밋 제목 : `[ 작업 액션 ]` `[ 작업 단위 ㄴ]`
   * `[( Init, Add, Fix, HotFix, Improve, ...)]` 중 택일 + `[ 작업 단위에 대한 개요 ]`
 
 #### 커밋 설명 : 설명
@@ -170,6 +169,9 @@ $> git push origin {branch}
 - import는 **알파벳 순** 으로 정렬한다.
 
 ```python
+# python의 Library
+import base64
+
 # Django, DjangoRestFramework 등의 Library 순서
 from django.db import models
 from django.db.models import (
@@ -244,6 +246,7 @@ class B(models.Model):
 
 <br/>
 
+<!--
 # Code Review
 
 ## 일자
@@ -267,3 +270,4 @@ class B(models.Model):
 - 의도를 잘 설명
 - 결정은 개발자가
 - 만약 마음에 많이 들지 않으면 직접 수정
+-->
