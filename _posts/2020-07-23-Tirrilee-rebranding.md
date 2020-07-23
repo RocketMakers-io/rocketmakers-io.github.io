@@ -2,7 +2,7 @@
 layout: post
 title: 스타트업 셀프 리브랜딩
 tags:
-- Backend, Elastic Beanstalk, AWS, Django, Crontab
+- 브랜딩
 ---
 
 ## 티릴리 리브랜딩
@@ -91,3 +91,4 @@ Symbol이 완성된 이후에, 앞으로의 브랜딩을 어떻게 해 나갈지
 회사의 브랜드 **아이덴티티**를 만들어가는 것은 정말이고 재밌으면서도 어려운 일인 것 같다.     
 다음 리브랜딩으로는 티릴리 웹디자인의 과정을 설명할 차례다.
 
+<sup>Edited by 이민재, 강새롬</sup>
