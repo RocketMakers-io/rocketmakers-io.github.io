@@ -27,9 +27,9 @@ tags:
 
 그렇게 완성된 Tirrilee는 다음과 같은 의미를 갖게 되었다. 
 
-날아오르는 새처럼, '봄을 알리는 종달새처럼 봄을 알리는 종달새 소리와 같이  IT 업계에 새로움과 시작을 선도할 수 있는 기업이 된다는 의미'를 갖게 되었다. 
+날아오르는 새처럼, '봄을 알리는 종달새 소리와 같이  IT 업계에 새로움과 시작을 선도할 수 있는 기업이 된다는 의미'를 갖게 되었다. 
 
-![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/J2pGfPf0qUazD09eM2oQorK7Hns.png)
+![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/7bxgArYhyWkwADfQJm0EpyiXeyU.png)
 
 > '티릴리'(Tirrilee) 뜻의 어원에 의미를 더했다.
 
@@ -43,7 +43,7 @@ Symbol이 완성된 이후에, 앞으로의 브랜딩을 어떻게 해 나갈지
 이 새롭게 변형된 3가지 원칙을 통해 티릴리의 브랜드 디자인 원칙을 세웠다.
 이제 이 원칙을 기준으로 가장 어렵고 끝이 없는 회사 로고 작업을 진행할 차례다. 
 
-![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/-59HG6GWrKkwyh2U-3pL-pEh6Oc.png)
+![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/KdfT1hvtX7mnu8sZ26FwymQMt-4.png)
 > 브랜드 의미, 디자인 원칙의 근원
                                                 
 
@@ -53,7 +53,7 @@ Symbol이 완성된 이후에, 앞으로의 브랜딩을 어떻게 해 나갈지
  기존 브랜딩인 블루 컬러감을 유지하되, 좀 더 산뜻하고 청아한 느낌의 색으로 바꾸고 싶었다.
 그렇다고 가볍지도 않으며 거기에 약간의 신뢰감이 묻어날 수 있는 색감. 그렇게 다양한 블루계열의 컬러들 속에서 티릴리만의 브랜드 컬러가 탄생했다. 
 
-![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/KZB234nJS_umTw92bTTw-zQ1yj8.png)
+![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/UoF6DCBul5K3mz127EsUs3tin1o.png)
 > 리브랜딩을 통해 다시 태어난 티릴리 브랜드 컬러
 
 
@@ -68,21 +68,21 @@ Symbol이 완성된 이후에, 앞으로의 브랜딩을 어떻게 해 나갈지
 
 최종으로 완성된 로고는 다음과 같다. 
 
-![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/IHZKZRztpummQ-TfFNNBqH2uZ-Q.png)
+![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/rRAWheXZLzArMnMZXqTr8QZd3WQ.png)
 > 리브랜딩을 통해 새로 태어난 티릴리 로고
 
 
 ## 05_Tirrilee Goods     
 이제 로고 디자인을 실제 상품에 적용해보았다. 
 
-![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/c4uO83KacOY-xes1BgTUnIBWIb0.png)
+![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/fzmIzDnzgRoM5AvEAUC1IITVn20.png)
 > 티릴리 로고가 들어간 다양한 제품들.
 
 다행이 생각보다 어색하지 않다. 
 아니 오히려 예쁘다는 생각이 들었다. 내친김에 에코백을 만들어서 나눠주고 싶었다.               
 내친김에 더 많은 티릴리 굿즈를 만들어보았다.
 
-![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/XXCz41ZHwgpFpFp0T6CtkitvfqE.png)
+![image](https://t1.daumcdn.net/thumb/R1280x0.fpng/?fname=http://t1.daumcdn.net/brunch/service/user/4J7R/image/gFiCKToasZkf3XEfotpj2120jWA.png)
 
 명함부터, 사원증, 팜플렛, 쇼핑백, 봉투까지, 블루+화이트 조합은 비교적 잘 어울리는 것 같다.
 여유가 생기게 되면 실제로 만들어서 이벤트를 통해 나누어 주어야겠다. 
