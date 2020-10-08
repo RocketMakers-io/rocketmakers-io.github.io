@@ -10,11 +10,8 @@ hidden: false
 
 ## 소개
 
-로켓메이커스 팀 소개
-https://www.notion.so/c9f12001b6c0464d81043bf570141826
-
-로켓메이커스 채용 내용
-https://www.notion.so/ASAP-08fd3205f99a46329bda654a837b982b
+- [[로켓메이커스 팀 소개](https://www.notion.so/c9f12001b6c0464d81043bf570141826)]
+- [[로켓메이커스 채용 내용](https://www.notion.so/ASAP-08fd3205f99a46329bda654a837b982b)]
 
 로켓메이커스는 스타트업을 대상으로 SW 기술지원을 하고 있는 젊고 똑똑한 개발팀입니다.
 
