@@ -1,15 +1,14 @@
 ---
 layout: post
-title: 티릴리의 Ground Rule
+title: [Django/React] 개발자 상시채용!
 tags:
-- Rule
-- Culture
+- recruit
 hidden: true
 ---
 
 티릴리에서 업무효율을 위해 정한 Ground Rule에 대해서 설명합니다! :)
 
-# 기본사항 
+# 기본사항
 
 1. 출근 : 10시 ~ 11시
 2. 점심시간 : 13시 ~ 14시
@@ -22,13 +21,13 @@ hidden: true
 
 ## Git Flow
 
-### TS - Flow (티릴리 솔로 플로우)   
+### TS - Flow (티릴리 솔로 플로우)
 
 ```
 master - develop - hotfix/ - hotfix-작업단위
 ```
 
-### TC - Flow (티릴리 콜라보 플로우)    
+### TC - Flow (티릴리 콜라보 플로우)
 
 ```
 master - develop - feature/ - feature-작업단위
@@ -42,10 +41,12 @@ master - develop - feature/ - feature-작업단위
 ### 개요
 
 #### 커밋 제목 : `[ 작업 액션 ]` `[ 작업 단위 ㄴ]`
-  * `[( Init, Add, Fix, HotFix, Improve, ...)]` 중 택일 + `[ 작업 단위에 대한 개요 ]`
+
+- `[( Init, Add, Fix, HotFix, Improve, ...)]` 중 택일 + `[ 작업 단위에 대한 개요 ]`
 
 #### 커밋 설명 : 설명
-  * `[설명]` : 추가 상세 설명 내용은 커밋 제목 하단에 내용으로 추가한다
+
+- `[설명]` : 추가 상세 설명 내용은 커밋 제목 하단에 내용으로 추가한다
 
 #### 작업 액션
 
@@ -65,7 +66,7 @@ master - develop - feature/ - feature-작업단위
 
 ### 과정
 
-``` bash
+```bash
 $> git add -p
 $> git commit -v
 $> git push origin {branch}
@@ -73,17 +74,18 @@ $> git push origin {branch}
 
 #### git add -p
 
-코드 **블럭 단위** 또는 **파일 단위** 로 add 를 할 수 있는 옵션 (CLI)         
-- y : 해당 hunk 를 add        
-- n : 해당 hunk 는 스킵       
-- q : 그만두기        
-- a : 해당 파일 전체를 add        
-- d : 해당 파일 전체를 스킵       
+코드 **블럭 단위** 또는 **파일 단위** 로 add 를 할 수 있는 옵션 (CLI)
 
-#### git commit -v  
+- y : 해당 hunk 를 add
+- n : 해당 hunk 는 스킵
+- q : 그만두기
+- a : 해당 파일 전체를 add
+- d : 해당 파일 전체를 스킵
 
-- 커밋을 vi 에디터로 진행하는 옵션        
-- 첫번째 줄은 title 두번째 줄부터 설명     
+#### git commit -v
+
+- 커밋을 vi 에디터로 진행하는 옵션
+- 첫번째 줄은 title 두번째 줄부터 설명
 
 <br/>
 
@@ -94,7 +96,6 @@ $> git push origin {branch}
 1. 보드란 트렐로의 create board 를 통해 생성되는 보드를 의미한다.
 2. 칸반이란 트렐로의 add another list 를 통해 생성되는 하나의 리스트를 의미한다.
 3. 카드란 하나의 리스트 안에 있는 하나의 아이템을 의미한다.
-
 
 ## 규칙
 
@@ -175,8 +176,8 @@ import base64
 # Django, DjangoRestFramework 등의 Library 순서
 from django.db import models
 from django.db.models import (
-			Q, 
-			OuterRef, 
+			Q,
+			OuterRef,
 			Subquery,
 		)
 
@@ -238,9 +239,9 @@ class B(models.Model):
 - Static, Media 파일을 project 밖으로 꺼내고 저장소에 올리지 않는다.
 
 - log는 한글로 명시하며, print를 이용하여 각 def마다 디테일하게 설정하고, uwsgi에서 찍힌 로그를 확인한다.
-	- log를 찍는 목적은 이후 서비스 중 에러가 일어났을 때 해당 과정을 트래킹하기 위해서이다.
-	- 때문에 어떤 함수가 실행되었는지 작게는 어떤 기능이 일어나고 있는지를 명시해야한다.
-	- Data가 변경되는 Create, Update, Delete 앞, 뒤로는 log가 필요하며, 어떤 데이터 값이 어떻게 변경되어지는지 상세한 로그를 기록해야한다.
+  - log를 찍는 목적은 이후 서비스 중 에러가 일어났을 때 해당 과정을 트래킹하기 위해서이다.
+  - 때문에 어떤 함수가 실행되었는지 작게는 어떤 기능이 일어나고 있는지를 명시해야한다.
+  - Data가 변경되는 Create, Update, Delete 앞, 뒤로는 log가 필요하며, 어떤 데이터 값이 어떻게 변경되어지는지 상세한 로그를 기록해야한다.
 
 ## React
 
@@ -251,7 +252,7 @@ class B(models.Model):
 
 ## 일자
 
-- 매주 금요일 
+- 매주 금요일
 - 단 자신이 원할 때 리뷰어의 동의하에 코드 리뷰를 동적으로 진행 가능
 
 ## 리뷰 시 주로 봐야할 기능
