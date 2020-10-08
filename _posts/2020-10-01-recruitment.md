@@ -1,10 +1,12 @@
 ---
 layout: post
-title: (Django/React) 개발자 상시채용!
+title: Django/React 개발자 상시채용!
 tags:
   - recruit
 hidden: false
 ---
+
+로켓메이커스와 함께 성장할 개발자 모집하고 있습니다!
 
 ## 소개
 
