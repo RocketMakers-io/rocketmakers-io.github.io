@@ -4,7 +4,7 @@ title: 로켓메이커스에서 개발하는 방법
 tags:
   - rule
   - culture
-hidden: true
+hidden: false
 ---
 
 로켓메이커스에서 업무효율을 위한 약속! Ground Rule에 대해서 설명합니다! :)
