@@ -21,13 +21,18 @@ hidden: false
 
 간단한 이력서와 포폴은 contact@rocketmakers.io 메일로 전달해주세요.
 
+## 최근 개발한 서비스
+
+- [누트북 : PDF 책 판매 플랫폼](https://www.noutebook.com/)
+- [리사이즈 : 수선 O2O 플랫폼](https://resize.co.kr/)
+
 ## 채용 상세
 
 담당업무
 
 - 파트별로 담당해 서비스 개발을 진행합니다
 - 백엔드는 Django를 사용한 API 개발을 진행합니다.
-- 프런트는 Next 기반으 PWA 개발을 합니다.
+- 프런트는 Next 기반으로 PWA 개발을 합니다.
 
 자격요건
 
@@ -46,7 +51,7 @@ hidden: false
 
 ## 복지
 
-![복지](https://raw.githubusercontent.com/wkddnjset/wkddnjset.github.io/master/images/2020.10/복지.png)
+![복지](https://github.com/RocketMakers-io/rocketmakers-io.github.io/blob/master/images/2020.10/%EB%B3%B5%EC%A7%80.png?raw=true)
 
 ## 근무지
 
